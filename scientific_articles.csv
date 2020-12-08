@@ -1,0 +1,1508 @@
+,titles,abstarcts
+0,"
+                  PCA versus LDA
+","""... In the context of the appearance-based paradigm for object recognition, it is generally believed that algorithms based on LDA (Linear Discriminant Analysis) are superior to those based on PCA (Principal Components Analysis) . In this communication we show that this is not always the case. We present ..."""
+1,"
+                  Latent dirichlet allocation
+                  ","""... We describe latent Dirichlet allocation (LDA), a generative probabilistic model for collections of discrete data such as text corpora. LDA is a three-level hierarchical Bayesian model, in which each item of a collection is modeled as a finite mixture over an underlying set of topics. Each topic is,  ..."""
+2,"
+LDA
+","""... improvement and tailoring for near-wall turbulence ..."""
+3,"
+                  Modeling annotated data
+                  ","""... We consider the problem of modeling annotated data—data with multiple types where the instance of one type (such as a caption) serves as a description of the other type (such as an image). We describe three hierarchical probabilistic mixture models that are aimed at such data, culminating in the Cor ..."""
+4,"
+                  A direct lda algorithm for high-dimensional data with application to face recognition
+                  ","""... Linear Discriminant Analysis (LDA) has been successfully used as a dimensionality reduction technique ..."""
+5,"
+                  Face recognition using laplacianfaces
+                  ","""... Abstract—We propose an appearance-based face recognition method called the Laplacianface approach. By using Locality Preserving Projections (LPP), the face images are mapped into a face subspace for analysis. Different from Principal Component Analysis (PCA) and Linear Discriminant Analysis (LDA) wh ..."""
+6,"
+                  The Author-Topic Model for Authors and Documents
+                  ","""... We introduce the author-topic model, a generative model for documents that extends Latent Dirichlet Allocation (LDA; Blei, Ng, & Jordan, 2003) to include authorship information. Each author is associated with a multinomial distribution over topics and each topic is associated with a multinomial  ..."""
+7,"
+                  Generalized Discriminant Analysis Using a Kernel Approach
+                  ","""... We present a new method that we call Generalized Discriminant Analysis (GDA) to deal with nonlinear discriminant analysis using kernel function operator. The underlying theory is close to the Support Vector Machines (SVM) insofar as the GDA method provides a mapping of the input vectors into high di ..."""
+8,"
+                  Why direct LDA is not equivalent to LDA
+","""... In this paper, we present counterarguments against the direct LDA algorithm (D-LDA), which was previously claimed to be equivalent to Linear Discriminant Analysis (LDA). We show from Bayesian decision theory that D-LDA is actually a special case of LDA by directly taking the linear space of class me ..."""
+9,"
+                  Rethinking LDA: Why Priors Matter
+                  ","""... Implementations of topic models typically use symmetric Dirichlet priors with fixed concentration parameters, with the implicit assumption that such “smoothing parameters ” have little practical effect. In this paper, we explore several classes of structured priors for topic models. We find that an  ..."""
+10,"
+                  Front End Factor Analysis for Speaker Verification
+                  ","""... Abstract—This paper presents an extension of our previous work which proposes a new speaker representation for speaker verification. In this modeling, a new low-dimensional speaker- and channel-dependent space is defined using a simple factor analysis. This space is named the total variability space ..."""
+11,"
+                  Labeled LDA: A supervised topic model for credit attribution in multi-labeled corpora
+                  ","""... A significant portion of the world’s text is tagged by readers on social bookmarking websites. Credit attribution is an inherent problem in these corpora because most pages have multiple tags, but the tags do not always apply with equal specificity across the whole document. Solving the credit attri ..."""
+12,"
+LDA at Work
+                  ","""... The Advanced Measurement Approach in the Basel II Accord permits an unprecedented amount of flexibility in the methodology used to assess OR cap-ital requirements. In this paper, we present the capital model developed at Deutsche Bank and implemented in its official EC process. The model follows the ..."""
+13,"
+                  A(LDA,*)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. ..."""
+14,"
+                  A(LDA,*)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F08NVF (ZGEBAL) balances a complex general matrix in order to improve the accuracy of computed eigenvalues  ..."""
+15,"
+                  Parallelism for LDA
+","""... As parallelism is very importtant for large scale of data, we want to use different technnology to paraallelize the lattent dirichlet allocaation algorithm. Latent dirichlet allocattion (LLDA) is a generative model that allows sets of observations to be explained by unobservved groups whhich explain ..."""
+16,"
+                  DiscLDA: Discriminative Learning for Dimensionality Reduction and Classification
+                  ","""... Probabilistic topic models have become popular as methods for dimensionality reduction in collections of text documents or images. These models are usually treated as generative models and trained using maximum likelihood or Bayesian methods. In this paper, we discuss an alternative: a discriminativ ..."""
+17,"
+                  On an Equivalence between PLSI and LDA
+","""... Latent Dirichlet Allocation (LDA) is a fully generative approach to language modelling which overcomes the inconsistent generative semantics of Probabilistic Latent Semantic Indexing (PLSI). This paper shows that PLSI is a maximum a posteriori estimated LDA model under a uniform Dirichlet prior, the ..."""
+18,"
+                  Discriminant Analysis of Principal Components for Face Recognition
+                  ","""... . In this paper we describe a face recognition method based on PCA (Principal Component Analysis) and LDA (Linear Discriminant Analysis). The method consists of two steps: first we project the face image from the original vector space to a face subspace via PCA, second we use LDA to obtain a linear  ..."""
+19,"
+                  Random Sampling LDA for Face Recognition
+                  ","""... Linear Discriminant Analysis (LDA) is a popular feature extraction technique for face recognition. However, It often suffers from the small sample size problem when dealing with the high dimensional face data. Fisherface and Null Space LDA (N-LDA) are two conventional approaches to address this prob ..."""
+20,"
+                  Resampling lda/qr and pca+lda for face recognition
+                  ","""... Abstract. Principal Component Analysis (PCA) plus Linear Discriminant Analysis (LDA) (PCA+LDA) and LDA/QR are both two-stage methods that deal with the small sample size (SSS) problem in traditional LDA. When applied to face recognition under varying lighting conditions and different facial expressi ..."""
+21,"
+                  Graph embedding and extension: A general framework for dimensionality reduction
+                  ","""... Over the past few decades, a large family of algorithms—supervised or unsupervised; stemming from statistics or geometry theory—has been designed to provide different solutions to the problem of dimensionality reduction. Despite the different motivations of these algorithms, we present in this paper ..."""
+22,"
+                  Generalized Spectral Bounds for Sparse LDA
+","""... We present a discrete spectral framework for the sparse or  cardinality-constrained  solution of a generalized Rayleigh quotient. This NP-hard combinatorial optimization problem is central to supervised learning tasks such as sparse LDA, feature selection and relevance ranking for classification. We ..."""
+23,"
+                  Topics over time: A non-Markov continuous-time model of topical trends
+                  ","""... This paper presents an LDA-style topic model that captures not only the low-dimensional structure of data, but also how the structure changes over time. Unlike other recent work that relies on Markov assumptions or discretization of time, here each topic is associated with a continuous distribution  ..."""
+24,"
+                  PCA versus LDA
+","""... AbstractÐIn the context of the appearance-based paradigm for object recognition, it is generally believed that algorithms based on LDA (Linear Discriminant Analysis) are superior to those based on PCA (Principal Components Analysis). In this communication, we show that this is not always the case. W ..."""
+25,"
+                  Application of LDA to Speaker Recognition
+                  ","""... The speaker recognition task falls under the general problem of pattern classification. Speaker recognition as a pattern classification problem, its ultimate objective is design of a system that classifies the vector of features in different classes by partitioning the feature space into optimal spe ..."""
+26,"
+                  KPCA plus LDA: a complete kernel Fisher discriminant framework for feature extraction and recognition
+                  ","""...  This paper examines the theory of kernel Fisher discriminant analysis (KFD) in a Hilbert space and develops a two-phase KFD framework, i.e., kernel principal component analysis (KPCA) plus Fisher linear discriminant analysis (LDA). This framework provides novel insights into the nature of KFD. Base ..."""
+27,"
+                  Robust LDA Classification by Subsampling
+                  ","""... In this paper we present a new method which enables a robust calculation of the LDA classification rule, thus making the recognition of objects under non-ideal conditions possible, i.e., in situations when objects are occluded or they appear on a varying background, or when their images are corrupte ..."""
+28,"
+                  Ensemble LDA for Face Recognition
+                  ","""... Abstract. Linear Discriminant Analysis (LDA) is a popular feature extraction technique for face image recognition and retrieval. However, It often suffers from the small sample size problem when dealing with the high dimensional face data. Two-step LDA (PCA+LDA) [1–3] is a class of conventional appr ..."""
+29,"
+                  An improved LDA approach
+                  ","""... Abstract—Linear discrimination analysis (LDA) technique is an important and well-developed area of image recognition and to date many linear discrimination methods have been put forward. Despite these efforts, there persist in LDA at least three areas of weakness. The first weakness is that not all  ..."""
+30,"
+                  Block LDA for Face Recognition
+                  ","""... Abstract. Linear Discriminant Analysis (LDA) technique is an important and well-developed area of image recognition and to date many linear discrimination methods have been put forward. Despite these efforts, there persist in the traditional LDA some weaknesses. In this paper, we propose a new LDA-b ..."""
+31,"
+                  Algorithms of the LDA model
+                  ","""... We review three algorithms for Latent Dirichlet Allo-cation (LDA). Two of them are variational inference ..."""
+32,"
+                    Incremental PCA-LDA Algorithm
+                  ","""... In this paper a recursive algorithm of calculating the discriminant features of the PCA-LDA procedure is introduced. This algorithm computes the principal components of a sequence of vectors incrementally without estimating the covariance matrix (so covariance-free) and at the same time computing th ..."""
+33,"
+                  Application of LDA to bubbly flows
+                  ","""... The fluctuating velocity field in an air–water bubble column (i.d. 15.2 cm) at a gas fraction of 25 % is investigated using backscatter LDA. Since the interpretation of LDA signals in bubbly flows is not straight forward also experiments on a single bubble train are reported. It is discussed that in ..."""
+34,"
+                  Parameter Estimation for LDA-Frames
+                  ","""... LDA-frames is an unsupervised approach for identifying semantic frames from semantically unlabeled text corpora, and seems to be a useful competitor for manually created databases of selectional preferences. The most limiting property of the algorithm is such that the number of frames and roles must ..."""
+35,"
+                  VISEME SEGMENTATION BY LDA HYSTERESIS
+                  ","""... In this paper a viseme segmentation method based on Linear Discriminant Analysis (LDA) is presented in order to separate facial skin from lips. The algorithm works on color pictures of human faces using a novel rbS color space. Final effect is achieve by applying a hysteresis concept of two threshol ..."""
+36,"
+                  Correlations and Anticorrelations in LDA Inference
+                  ","""... Inference of the document-specific topic distributions in latent Dirichlet allocation (LDA) [2] and decoding in compressed sensing [3] exhibit many similarities. Given a matrix and a noisy observed vector, the goal of both tasks is to recover a sparse vector that, when combined with the matrix, prov ..."""
+37,"
+                  Experiments with LDA and Probabilistic
+                  ","""... this report, we present results of various tests involving two state-of-the-art face verification algorithms, namely LDA (Linear Discriminant Analysis [1]) and PM [4] (Probabilistic Matching) . Mainly, we tested the performance degradation when 1) the localization of test images is purposely perturb ..."""
+38,"
+                  Domain Based LDA and QDA
+                  ","""... We propose an alternative to probability density clas-sifiers based on normal distributions LDA and QDA. In-stead of estimating covariance matrices using the standard maximum likelihood estimator we estimate class domains by the minimum volume enclosing ellipsoid (ν-MVEE). The ν-MVEE is a robust sta ..."""
+39,"
+                  with LDA and MDA Classifiers
+                  ","""... In this paper BPNN performance for the gait analysis with using the different modulation techniques i.e LDA and MDA. Gait Analysis is the new technique in the biometric identification, the gait have more advantages over the field of biometric systems like face recognition, finger printing etc. Gait  ..."""
+40,"
+                  Online Learning for Latent Dirichlet Allocation
+                  ","""... We develop an online variational Bayes (VB) algorithm for Latent Dirichlet Allocation (LDA). Online LDA is based on online stochastic optimization with a natural gradient step, which we show converges to a local optimum of the VB objective function. It can handily analyze massive document collection ..."""
+41,"
+                  Smoothed LDA: K∏ D∏
+                  ","""... p(w) = d=1 n=1 p(wd,n) ..."""
+42,"
+                  First LDA component
+                  ","""... This paper describes a generic framework for content-based music similarity classification that combines supervised and unsupervised models in a extensible and scalable way. The output of different models are combined via rankaggregation which allows one to extend the functional range of the framewo ..."""
+43,"
+                  A(LDA,*), ZETA(*)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F01QGF reduces the m by n (m of orthogonal transformations. n) real upper trapezoidal matrix A to upper tri ..."""
+44,"
+                  A(LDA,*), ZETA(*)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F01QJF finds the RQ factorization of the real m by n (m n) matrix A, so that A is reduced to upper triangul ..."""
+45,"
+                  A(LDA,*), THETA(*)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F01RGF reduces the complex m by n (m means of unitary transformations. n) upper trapezoidal matrix A to upp ..."""
+46,"
+                  INTEGER N, LDA
+","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F06RMF returns, via the function name, the value of the 1-norm, the 1-norm, the Frobenius norm, or the maxi ..."""
+47,"
+                  A(LDA,*), THETA(*)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F01RJF finds the RQ factorization of the complex m by n (m n), matrix A, so that A is reduced to upper tria ..."""
+48,"
+                  A(LDA,N), WK(*)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose G05QAF generates a random orthogonal matrix. ..."""
+49,"
+                  A(LDA,N)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. ..."""
+50,"
+LDA Local Development Approach
+                  ","""... Quotation is authorised as long as the source is acknowledged. The text is not binding for the European Commission Call for tenders by open procedure n° 2010.CE.16.0.AT.054 – Study on the contribution of local development in delivering interventions co-financed by the European Regional Development F ..."""
+51,"
+LDA Lithium diisopropylamine
+                  ","""... Abstract: Solid phase organic synthesis is a rapidly expanding area of synthetic chemistry which is being widely exploited in the search for new biologically active compounds by combinatorial tech-niques. This review introduces the key concepts of solid phase methodology and combinatorial synthesis  ..."""
+52,"
+LDA Local Density Approximation
+                  ","""...  ..."""
+53,"
+                  Discriminant Analysis by Gaussian Mixtures
+                  ","""... Fisher-Rao linear discriminant analysis (LDA) is a valuable tool for multigroup classification. LDA is equivalent to maximum likelihood classification assuming Gaussian distributions for each class. In this paper, we fit Gaussian mixtures to each class to facilitate effective classification in non-n ..."""
+54,"
+                  Linear dimensionality reduction via a heteroscedastic extension of lda: The chernoff criterion
+                  ","""... Abstract—We propose an eigenvector-based heteroscedastic linear dimension reduction (LDR) technique for multiclass data. The technique is based on a heteroscedastic two-class technique which utilizes the so-called Chernoff criterion, and successfully extends the well-known linear discriminant analys ..."""
+55,"
+                  MedLDA: Maximum Margin Supervised Topic Models for Regression and Classification
+                  ","""... Supervised topic models utilize document’s side information for discovering predictive low dimensional representations of documents; and existing models apply likelihoodbased estimation. In this paper, we present a max-margin supervised topic model for both continuous and categorical response variab ..."""
+56,"
+                  Fusion of LDA and PCA for Face Verification
+                  ","""... Although face verification systems have proven to be reliable in ideal  environments, they can be very sensitive to real environmental conditions. The  system robustness can be increased by the fusion of different face verification  algorithms. To the best of our knowledge, no face verification syst ..."""
+57,"
+                  Topics, Topic
+                  ","""... LDA ..."""
+58,"
+                  On matching scores for lda-based face verification
+                  ","""... We address the problem of face verification using linear discriminant anal-ysis and investigate the issue of matching score1. We establish the reason behind the success of the normalised correlation. The improved understand-ing about the role of metric then naturally leads to a novel way of measurin ..."""
+59,"
+                  Solving the Small Sample Size Problem of LDA
+","""... The small sample size problem is often encountered in pattern recognition. It results in the singularity of the within-class scatter matrix Sw in Linear Discriminant Analysis (LDA). Different methods have been proposed to solve this problem in face recognition literature. Some methods reduce the dim ..."""
+60,"
+                  Topic and role discovery in social networks
+                  ","""... Previous work in social network analysis (SNA) has modeled the existence of links from one entity to another, but not the language content or topics on those links. We present the Author-Recipient-Topic (ART) model for social network analysis, which learns topic distributions based on the direction- ..."""
+61,"
+                  Fusion of LDA and PCA for Face Recognition
+                  ","""... Although many approaches for face recognition have been proposed in  the last years, none of them can overcome the main problem of this kind of  biometrics: the huge variability of many environmental parameters (lighting, pose,  scale). Hence, face recognition systems can achieve good results at the ..."""
+62,"
+                  A New Weighted LDA Method in Comparison to Some Versions of LDA
+","""... Abstract—Linear Discrimination Analysis (LDA) is a linear solution for classification of two classes. In this paper, we propose a variant LDA method for multi-class problem which redefines the between class and within class scatter matrices by incorporating a weight function into each of them. The a ..."""
+63,"
+                  Normalized LDA for Semi-supervised Learning
+                  ","""... Linear Discriminant Analysis (LDA) has been a popular method for feature extracting and face recognition. As a supervised method, it requires manually labeled samples for training, while making labeled samples is a time consuming and exhausting work. A semi-supervised LDA (SDA [3]) has been proposed ..."""
+64,"
+                  A New Weighted LDA Method in Comparison to Some Versions of LDA
+","""... Abstract—Linear Discrimination Analysis (LDA) is a linear solution for classification of two classes. In this paper, we propose a variant LDA method for multi-class problem which redefines the between class and within class scatter matrices by incorporating a weight function into each of them. The a ..."""
+65,"
+                  Boosted-LDA for Biomedical Data Analysis
+                  ","""... Abstract. We propose a novel approach to boosting weighted linear discriminant analysis (LDA) as a weak classifier. Combining Adaboost with LDA allows selecting the most relevant features for classification at each boosting iteration, thus benefiting from feature correlation. The advantages of this  ..."""
+66,"
+                  Gait Recognition Based on PCA and LDA
+","""... Abstract—This paper proposes a new gait recognition method using Principal Component Analysis (PCA) and Linear Discriminant Analysis (LDA). PCA is first applied to 1D time-varying distance signals derived from a sequence of silhouette images to reduce it’s dimensionality. Then, LDA is performed to o ..."""
+67,"
+                  REGULARIZATION STUDIES ON LDA FOR FACE RECOGNITION
+                  ","""... It is well-known that the applicability of Linear Discriminant Analysis (LDA) to high-dimensional pattern classification tasks such as face recognition (FR) often suffers from the so-called “small sample size ” (SSS) problem arising from the small number of available training samples compared to the ..."""
+68,"
+                  Local Binary LDA for Face Recognition
+                  ","""...  Abstract. Extracting discriminatory features from images is a crucial task for biometric recognition. For this reason, we have developed a new method for the extraction of features from images that we have called local binary linear discriminant analysis (LBLDA), which combines the good characteris ..."""
+69,"
+                  An Efficient LDA Algorithm for Face Recognition
+                  ","""... It has been demonstrated that the Linear Discriminant Analysis (LDA) approach outperforms the Principal Component Analysis (PCA) approach in face recognition tasks. Due to the high dimensionality of a image space, many LDA based approaches, however, first use the PCA to project an image into a lower ..."""
+70,"
+                  Analysis of LDA-based matching schemes for
+                  ","""... The performance of face verification system using linear discriminant analysis  (LDA) depends on many factors such as the image geometric registration,  the feature space dimensions, photometric normalisations, matching schemes  adapted in the LDA subspace, etc. In this paper, the relationships amon ..."""
+71,"
+                  Improved LDA and LVQ for Face Recognition
+                  ","""...  Abstract: We present a hybrid face recognition algorithm which is based on the linear discriminant analysis (LDA) improved by a fusion technique and learning vector quantization (LVQ) in the paper. Firstly, the improved LDA is utilized to reduce the sample vector dimension, and then the LVQ classif ..."""
+72,"
+                  REGULARIZED D-LDA FOR FACE RECOGNITION
+                  ","""... Linear Discriminant Analysis (LDA) is derived from the optimal Bayes classifier when classes are assumed to be Gaussian with identical covariance matrices. However, it is well known that the distribution of face images under a perceivable variation in viewpoint, illumination or facial expression, is ..."""
+73,"
+                  Contextual Modeling with Labeled Multi-LDA
+","""... Abstract — Learning about activities and object affordances from human demonstration are important cognitive capabilities for robots functioning in human environments, for example, being able to classify objects and knowing how to grasp them for different tasks. To achieve such capabilities, we prop ..."""
+74,"
+                  Finding Topics in Emails: Is LDA enough?
+                  ","""... Our research addresses the task of finding topics at the sentence level in email conversations. As an asynchronous collaborative application, email has its own characteristics which differ from written monologues (e.g., text books, news articles) or spoken dialogs (e.g., meetings). Hence, the genera ..."""
+75,"
+                  Electronic Structure Calculations with LDA+DMFT
+                  ","""... Abstract The LDA+DMFT method is a very powerful tool for gaining insight into the physics of strongly correlated materials. It combines traditional ab-initio density-functional techniques with the dynamical mean-field theory. The core as-pects of the method are (i) building material-specific Hubbard ..."""
+76,"
+                  Stream-Weight Optimization by LDA and Adaboost
+                  ","""... This paper proposes an automatic stream-weight optimization method for noise-robust speaker verification using multi-stream HMMs integrating spectral and prosodic information. The paper first shows the effectiveness of the multi-stream technique in our speaker verification framework. Next, a stream- ..."""
+77,"
+                  LANGUAGE IDENTIFICATION USING G-LDA
+","""... Language Identification has an important role in Natural Language processing applications as one of the pre-processing steps. There are various mechanisms in use today to achieve this task with brilliant recognition rates. Recent years have seen rapid growth in international communication which has  ..."""
+78,"
+                  Making the Most of . . . : Confused Supervised LDA
+","""... Corpus labeling projects frequently use low-cost workers from microtask market-places; however, these workers are often inexperienced or have misaligned incentives. Crowdsourcing models must be robust to the resulting systematic and non-systematic inaccuracies. We introduce a novel crowdsourcing mod ..."""
+79,"
+                  Facial Expression Recognition with PCA And LDA
+","""... Abstract-- Facial expression provides an important behavioural measure for studies of emotion, cognitive processes, and social interaction. Facial expression recognition has recently become a promising research area. Its applications include human-computer interfaces, human emotion analysis, and med ..."""
+80,"
+                  Analysis of Curriculum Structure Based on LDA
+","""... Abstract — A good curriculum is crucial for a successful university education. When developing a curriculum, top-ics, such as natural science, informatics, etc. are set first, and then course syllabi are written accordingly. However, there is no guarantee that the topics actually covered by the cour ..."""
+81,"
+                  Infinite Mean Models and the LDA for Operational Risk
+                  ","""...  ..."""
+82,"
+                  Online Courses Recommendation based on LDA
+","""... In this paper we propose a course recommen-dation system based on historical grades of students in college. Our model will be able to recommend available courses in sites such as: Coursera, Udacity, Edx, etc. To do so, proba-bilistic topic models are used as follows. On one hand, Latent Dirichlet Al ..."""
+83,"
+LDA+ TCP-Friendly Adaptation: A Measurement and Comparison Study
+                  ","""... Abstract — In this paper, we present an end-to-end adaptation scheme, called the enhanced loss-delay based adaptation algorithm (LDA+) for regulating the transmission behavior of multimedia senders in accordance with the network congestion state. LDA+ uses the real-time transport protocol (RTP) for  ..."""
+84,"
+                  Identifying Comparable Corpora Using LDA
+","""... Parallel corpora have applications in many areas of Natural Language Processing, but are very expensive to produce. Much information can be gained from comparable texts, and we present an algorithm which, given any bodies of text in multiple languages, uses existing named entity recognition software ..."""
+85,"
+LDA-BASED PERSONALIZED DOCUMENT RECOMMENDATION
+                  ","""...  Abstract ..."""
+86,"
+                  DOUBLE PRECISION A(LDA,∗) INTEGER
+                  ","""... Note: Before using this routine, please read the Users ’ Note for your implementation to check for implementation-dependent details. You are advised to enclose any calls to NAG Parallel Library routines between calls to Z01AAFP and Z01ABFP. 1 Description X04BGFP reads an m by n real matrix A from an ..."""
+87,"
+                  On matching scores for LDA-based face
+                  ","""... We address the problem of face verification using linear discriminant analysis  and investigate the issue of matching score    . We establish the reason  behind the success of the normalised correlation. The improved understanding  about the role of metric then naturally leads to a novel way of meas ..."""
+88,"
+                  An Efficient LDA Algorithm for Face Recognition
+                  ","""...  ..."""
+89,"
+                  complex A(LDA,*), TAU(*), WORK(*)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. ..."""
+90,"
+                  complex A(LDA,*), TAU(*), WORK(*)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F08NTF (CUNGHR=ZUNGHR) generates the complex unitary matrix Q which was determined by F08NSF (CGEHRD=ZGEHRD ..."""
+91,"
+                  real A(LDA,*), TAU(*), WORK(*)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F08NFF (SORGHR=DORGHR) generates the real orthogonal matrix Q which was determined by F08NEF (SGEHRD=DGEHRD ..."""
+92,"
+                  real A(LDA,*), TAU(*), WORK(*)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. ..."""
+93,"
+                  complex A(LDA,*), TAU(*), WORK(*)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F08KTF (CUNGBR=ZUNGBR) generates one of the complex unitary matrices Q or P H which were determined by F08K ..."""
+94,"
+                  DOUBLE PRECISION A(LDA,*) INTEGER
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check for implementation-dependent details. You are advised to enclose any calls to NAG Parallel Library routines between calls to Z01AAFP and Z01ABFP. 1 Description F01ZSFP generates a m by n real matrix A on a ..."""
+95,"
+                  DOUBLE PRECISION A(LDA,*) INTEGER
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check for implementation-dependent details. You are advised to enclose any calls to NAG Parallel Library routines between calls to Z01AAFP and Z01ABFP. 1 Description F01ZRFP generates a distributed m by n real m ..."""
+96,"
+                  Magnetism of correlated systems: beyond LDA
+","""... ar ..."""
+97,"
+                  Topic Models (pLSA LDA);
+                  ","""... • MARR relies only on the pre-labeled attributes to design the dependency model. • User labeling is a burdensome process. The small amount of attributes are far from sufficient in forming an expressive feature space. 2. Our Solution • Weak Attributes are a collection of mid-level representations, wh ..."""
+98,"
+LDA/SVM Driven Nearest Neighbor Classification
+                  ","""... Nearest neighbor classification relies on the assumption that class conditional probabilities are locally constant. This assumption becomes false in high dimensions with finite samples due to the curse of dimensionality. The nearest neighbor rule introduces severe bias under these conditions. We pro ..."""
+99,"
+                  Topic significance ranking of LDA generative models
+                  ","""... Abstract. Topic models, like Latent Dirichlet Allocation (LDA), have been recently used to automatically generate text corpora topics, and to subdivide the corpus words among those topics. However, not all the estimated topics are of equal importance or correspond to genuine themes of the domain. So ..."""
+100,"
+                  Topic-Link LDA: Joint Models of Topic and Author Community
+                  ","""... Given a large-scale linked document collection, such as a collection of blog posts or a research literature archive, there are two fundamental problems that have generated a lot of interest in the research community. One is to identify a set of high-level topics covered by the documents in the colle ..."""
+101,"
+                  Discovering object categories in image collections  
+                  ","""... Given a set of images containing multiple object categories, we seek to discover those categories and their image locations without supervision. We achieve this using generative models from the statistical text literature: probabilistic Latent Semantic Analysis (pLSA), and Latent Dirichlet Allocatio ..."""
+102,"
+                  Constrained LDA for Grouping Product Features in Opinion Mining
+                  ","""... Abstract. In opinion mining of product reviews, one often wants to produce a summary of opinions based on product features/attributes. However, for the same feature, people can express it with different words and phrases. To produce an effective summary, these words and phrases, which are domain syn ..."""
+103,"
+                  Text segmentation with LDA-based Fisher kernel
+                  ","""... In this paper we propose a domainindependent text segmentation method, which consists of three components. Latent Dirichlet allocation (LDA) is employed to compute words semantic distribution, and we measure semantic similarity by the Fisher kernel. Finally global best segmentation is achieved by dy ..."""
+104,"
+                  Pachinko allocation: DAG-structured mixture models of topic correlations
+                  ","""... Latent Dirichlet allocation (LDA) and other related topic models are increasingly popular tools for summarization and manifold discovery in discrete data. However, LDA does not capture correlations between topics. In this paper, we introduce the pachinko allocation model (PAM), which captures arbitr ..."""
+105,"
+                  Link-plsa-lda: A new unsupervised model for topics and influence in blogs
+                  ","""... In this work, we address the twin problems of unsupervised topic discovery and estimation of topic specific influence of blogs. We propose a new model that can be used to provide a user with highly influential blog postings on the topic of the user’s interest. We adopt the framework of an unsupervis ..."""
+106,"
+                  Incremental LDA Learning by Combining Reconstructive and Discriminative Approaches
+                  ","""... Incremental subspace methods have proven to enable efficient training if large amounts of training data have to be processed or if not all data is available in advance. In this paper we focus on incremental LDA learning which provides good classification results while it assures a compact data repre ..."""
+107,"
+Lda based similarity modeling for question answering
+                  ","""... We present an exploration of generative modeling for the question answering (QA) task to rank candidate passages. We investigate Latent Dirichlet Allocation (LDA) models to obtain ranking scores based on a novel similarity measure between a natural language question posed by the user and a candidate ..."""
+108,"
+                  Factorial LDA: Sparse Multi-Dimensional Text Models
+                  ","""... Latent variable models can be enriched with a multi-dimensional structure to consider the many latent factors in a text corpus, such as topic, author perspective and sentiment. We introduce factorial LDA, a multi-dimensional model in which a document is influenced by K different factors, and each wo ..."""
+109,"
+                  Using LDA to detect semantically incoherent documents
+                  ","""... Detecting the semantic coherence of a document is a challenging task and has several applications such as in text segmentation and categorization. This paper is an attempt to distinguish between a ‘semantically coherent ’ true document and a ‘randomly generated ’ false document through topic detecti ..."""
+110,"
+                  “Infinite LDA ” – Implementing the HDP with minimum code complexity
+                  ","""... Abstract. Shows how the hierarchical Dirichlet process (HDP) may be implemented in a simple way, following the idea that the HDP is an extension to its parametric counterpart, latent Dirichlet allocation (LDA). Document version: draft, version 0.92, 20 Feb. 2011 (version 0.1: May 2008). ..."""
+111,"
+                  Topictiling: a text segmentation algorithm based on lda
+","""... This work presents a Text Segmentation algorithm called TopicTiling. This algorithm is based on the well-known TextTiling algorithm, and segments documents using the Latent Dirichlet Allocation (LDA) topic model. We show that using the mode topic ID assigned during the inference method of LDA, used  ..."""
+112,"
+                  Component-based LDA Face Descriptor for Image Retrieval
+                  ","""... We present a component-based face descriptor with LDA (Linear  Discriminant Analysis) and a simple pose classification. Our algorithm has  been developed to deal with face image retrieval in huge database such as  those in internet environments. Such retrieval requires a compact face  descriptor and ..."""
+113,"
+                  Infinite-mean models and the LDA for operational risk
+                  ","""... Due to published statistical analyses of operational risk data, methodological approaches to the “advanced measurement approach” modeling of operational risk can be discussed in more detail. In this paper we raise some issues concerning correlation (or diversification) effects, the use of extreme va ..."""
+114,"
+                  Reliable LDA-spectra by resampling and ARMA-modeling
+                  ","""... Abstract—Laser-Doppler Anemometry (LDA) is used to measure the velocity of gases and liquids with observations irregularly spaced in time. Equidistant resampling turns out to be better than slotting techniques. After resampling, two ways of spectral estimation are compared. The first estimate is a w ..."""
+115,"
+                  H.: Deterministic single-pass algorithm for lda
+","""... We develop a deterministic single-pass algorithm for latent Dirichlet allocation (LDA) in order to process received documents one at a time and then discard them in an excess text stream. Our algorithm does not need to store old statistics for all data. The proposed algorithm is much faster than a b ..."""
+116,"
+                  Liquid Velocity Field in Bubble Columns: LDA Experiments
+                  ","""... Abstract.--This paper eports on LDA experiments in bubble columns 15.2, 23.4, and 38.4 cm in diameter. The gas fraction ranges up to 25%, but the columns are still in the bubbly regime, i.e. coalescence of bubbles is minor. It is shown that both the axial and tangential liquid velocity components ca ..."""
+117,"
+                  1 Unsupervised Modelling of Player Style with LDA
+","""... Abstract—Computational analysis of player style has significant potential for video game design: it can provide insights into player behaviour, as well as the means to dynamically adapt a game to each individual’s style of play. To realise this potential, computational methods need to go beyond cons ..."""
+118,"
+                  BOOSTING LDA WITH REGULARIZATION ON MPCA FEATURES FOR GAIT RECOGNITION
+                  ","""... In this paper, we present a boosted linear discriminant analysis (LDA) solution with regularization on features extracted by the multilinear principal component analysis (MPCA) for the gait recognition problem. This work is an extension of a recent LDA-based boosting approach and the MPCA is employe ..."""
+119,"
+                  Generalized LDA Using Relevance Weighting and evolution strategy
+                  ","""... Abstract: In pattern classification area, linear discriminant analysis (LDA) is one of the most traditional methods to find a linear solution to the feature extraction problem, which maximise the ratio between between-elass scatter and the within class scatter (Fisher&aposs Criterion). We propose a ..."""
+120,"
+                    Essence of kernel Fisher discriminant: KPCA plus LDA
+","""... In this paper, the method of kernel Fisher discriminant (KFD) is analyzed and its nature is revealed, i.e., KFD is equivalent to kernel principal component analysis (KPCA) plus Fisher linear discriminant analysis (LDA). Based on this result, a more transparent KFD algorithm is proposed. That is, KPC ..."""
+121,"
+                  Face Recognition Using Angular LDA and SVM Ensembles
+                  ","""... One successful approach to feature extraction in face recognition problems is that of linear discriminant analysis (LDA). We examine an extension of this technique, called angular LDA, in which a non-linear transformation is applied after the LDA representation has been determined. We present experi ..."""
+122,"
+                  Unsupervised adaptation of the LDA classifier for Brain-Computer interfaces
+                  ","""... This paper discusses simulated on-line unsupervised adaptation of the LDA classifier in order to counteract the harmful effect of non-class related non-stationarities in EEG during BCI sessions. Three types of adaptation procedures were applied to the two large BCI data sets from TU Graz and Berlin  ..."""
+123,"
+                  Gait recognition through MPCA plus LDA
+","""... This paper solves the gait recognition problem in a multilinear principal component analysis (MPCA) framework. Gait sequences are naturally described as tensor objects and feature extraction for tensor objects is important in computer vision and pattern recognition applications. Classical principal  ..."""
+124,"
+                  FACE VERIFICATION USING LDA AND MLP ON THE BANCA
+                  ","""... IDIAP Research Report 03-66 FACE VERIFICATION USING LDA AND MLP ON THEBANCA DATABASE ..."""
+125,"
+LDA-based Keyword Selection in Text Categorization
+                  ","""... Abstract-Text categorization is the task of automatically assigning unlabeled text documents to some predefined category labels by means of an induction algorithm. Since the data in text categorization are high-dimensional, feature selection is broadly used in text categorization systems for reducin ..."""
+126,"
+                  Evaluation of LDA-based Face Verification with Respect To Available . . . 
+                  ","""... In this study, we are interested in a face verification or authentication  system based on Principal Component Analysis and Linear  Discriminant Analysis (known as Fisherfaces). We evaluate the tradeoff between performance and computational requirements of making a  decision in such a biometric syst ..."""
+127,"
+                  Style & topic language model adaptation using HMM-LDA
+","""... Adapting language models across styles and topics, such as for lecture transcription, involves combining generic style models with topic-specific content relevant to the target document. In this work, we investigate the use of the Hidden Markov Model with Latent Dirichlet Allocation (HMM-LDA) to obt ..."""
+128,"
+                  Multiclass Learning by Boosting Bootstrap LDA Projections
+                  ","""... In the final project, I implement a multiclass classification algorithm based on algorithm Adaboost.M2. Firstly, a large number of bootstrap training subsets are sampled from the original training set and Fisher Linear Discriminant Analysis (LDA) is implemented in each subset to get a large number o ..."""
+129,"
+                  More in-depth Analysis of 2D LDA
+","""... Spatial dimension reduction called Two Dimensional LDA method has recently been presented. The application of this variation of tra-ditional LDA considers images as 2D matrices instead of 1D vectors as PCA and LDA, traditional dimension reduction, methods have been using. The spatial approaches are  ..."""
+130,"
+                  Face Recognition Using Complete Fuzzy LDA
+","""... In this paper, we propose a novel method for feature extraction and recognition, namely, Complete Fuzzy LDA (CFLDA). CFLDA combines the complete LDA and fuzzy set theory. CFLDA redefines the fuzzy between-class scatter matrix and fuzzy within-class scatter matrix that make fully of the distribution  ..."""
+131,"
+                  IOS Press Dual LDA for Face Recognition
+                  ","""... Abstract. The complete theory for Fisher and dual discriminant analysis is presented as the background of the novel algorithms. LDA is found as composition of projection onto the singular subspace for within-class normalised data with the projection onto the singular subspace for betweenclass normal ..."""
+132,"
+                  Efficient Regularized LDA for Hyperspectral Image Classification
+                  ","""... In this paper, we focus on different kinds of regularization for Linear Discriminant Analysis (LDA) in the context of ill-posed remote sensing image classification problems. Several LDA-based classifiers are studied theoretically and tested on various remote sensing datasets. In addition, we introdu ..."""
+133,"
+                  FACE RECOGNITION USING LDA WITH WAVELET TRANSFORM APPROACH
+                  ","""...  & NemiChand Singh 6 Linear Discriminant Analysis (LDA) is one of the principal techniques used in face recognition systems. Linear Discriminant Analysis (LDA) is well-known scheme for feature extraction and dimension reduction. It provides improved performance over the standard Principal Compon ..."""
+134,"
+                  The LDA+DMFT Approach to Materials with Strong Electronic Correlations
+                  ","""... Permission to make digital or hard copies of portions of this work for personal or classroom use is granted provided that the copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page. To copy otherwise requires pri ..."""
+135,"
+                  Multiclass Classifiers Based on Dimension Reduction with Generalized LDA
+","""... Linear discriminant analysis (LDA) has been widely used for dimension reduction of data sets with multiple classes. The LDA has been recently extended to various generalized LDA methods which are applicable regardless of the relative sizes between the data dimension and the number of data items. In  ..."""
+136,"
+                  Performance Evaluation of LDA & RADON in GAIT Recognition
+                  ","""... Gait is an emergent biometric aimed essentially to recognize people by the way they walk. Gait’s advantages are that it requires no contact like automatic face recognition, and that it is less likely to be obscured than other biometrics. Gait has allied subjects including medical studies, psychology ..."""
+137,"
+                  A COMPARATIVE STUDY OF PCA, ICA AND LDA
+","""... Abstract: Different statistical methods for face recognition have been proposed in recent years and different research groups have reported contradictory results when comparing them. The goal of this paper is to present an independent, comparative study of three most popular appearance-based face re ..."""
+138,"
+                  An Improved LDA Model for Academic Document Analysis
+                  ","""... Abstract—Electronic documents on the Internet are always generated with many kinds of side information. Although those massive kinds of information make the analysis become very difficult, models would fit and analyze data well if they could make full use of those kinds of side information. This pap ..."""
+139,"
+                  ACCURATE LDA-SPECTRA BY RESAMPLING AND ARMA- MODELING
+                  ","""... With Laser-Doppler Anemometry (LDA) the velocity of gases and liquids is measured without disturbing the flow. The velocity signal is sampled at irregular intervals; a regularly resampled signal is extracted using Nearest Neighbor Resampling or Linear Interpolation. From the resampled data the spect ..."""
+140,"
+                  1Some “Goodness ” Properties of LDA Lattices
+                  ","""... We study some structural properties of Construction-A lattices obtained from low density parity check (LDPC) codes over prime fields. Such lattices are called low density Construction-A (LDA) lattices, and permit low-complexity belief propagation decoding for transmission over Gaussian channels. It  ..."""
+141,"
+LDA Topic Model with Soft Assignment of Descriptors to Words
+                  ","""... The LDA topic model is being used to model corpora of documents that can be represented by bags of words. Here we extend the LDA model to deal with documents that are represented by bags of continuous descriptors. Given a finite dictionary of words, our extended LDA model allows for the soft assignm ..."""
+142,"
+                  LSA and LDA for image features and annotated images
+                  ","""... Latent Semantic Analysis (LSA) and Latent Dirichlet Analysis (LDA) are two approaches for drawing out semantic similarities in documents or data sets in general. This project looks at the use of these techniques for providing co-clustering techniques for images. The project involves selecting a set  ..."""
+143,"
+                  Rethinking LDA: Moment Matching for Discrete ICA
+                  ","""... We consider moment matching techniques for estimation in latent Dirichlet allo-cation (LDA). By drawing explicit links between LDA and discrete versions of independent component analysis (ICA), we first derive a new set of cumulant-based tensors, with an improved sample complexity. Moreover, we reus ..."""
+144,"
+                  Face Recognition Based on LDA and SOM Neural Nets
+                  ","""... The use of biometric technique for automatic personal identification is one of the biggest challenges in the security field. The process is complex, because it is influenced by many factors related to the form, position, illumination, rotation, translation, disguise and occlusion of face characteris ..."""
+145,"
+                  Deteraiination of the Hydrodynamics in a Bubble Column by means of LDA
+","""... The hydrodynamic behaviour ofthe liquid flow in a 3D &aposair-water &apos bubble column 15 cm in diameter and a gas-fraction of 10 % was investigated. The study focussed on the low-frequency part (0-2 Hz) of liquid velocity time series measured close to the wall in order to get an indication as to ..."""
+146,"
+LDA measurements and turbulence spectral analysis in an agitated vessel
+                  ","""... Abstract. During the last years considerable improvement of the derivation of turbulence power spectrum from Laser Doppler Anemometry (LDA) has been achieved. The irregularly sampled LDA data is proposed to approximate by several methods e.g. Lomb-Scargle method, which estimates amplitude and phase  ..."""
+147,"
+                  An LDA Approach to the Neural Correlates of Configural Learning
+                  ","""... The purpose of our current study is to employ linear discriminant analysis (LDA; Philiastides & Sajda, 2006) to characterize the changes in ERPs over the entire course of a perceptual learning task. Configural learning is the perceptual learning process by which participants develop configural p ..."""
+148,"
+LDA Based Feature Estimation Methods for LVCSR
+                  ","""... Features that model temporal aspects of phonemes are important in speech recognition. One method is to use linear discriminant analysis (LDA) to find discriminative features from a spectrotemporal input formed by concatenating consecutive frames of short-time spectrum features. Others use e.g. neura ..."""
+149,"
+                  Combining Features Via Lda In Speaker Recognition
+                  ","""... This paper  1  discusses cepstral feature combinations via linear discriminant analysis (LDA) in the context of automatic speaker identification (ASI). Two static cepstral features are considered, namely standard MFCC and a sub-band filtered form derived via linear prediction known as RASTA-PLP. The ..."""
+150,"
+                  Gender Clustering Improvement for Speaker Adaptation Using LDA
+","""... Abstract: Speaker adaptation is an important issue in current speech recognition researches. Speaker clustering is one of the widely used methods in speaker adaptation. In this paper the effect of Linear Discriminant Analysis (LDA) on increasing the accuracy of some clustering methods such as k-mean ..."""
+151,"
+                  A Novel Iris Recognition Based on LDA and LPCC
+                  ","""... In this paper, the iris recognition algorithm based on LPCC and LDA is first presented. So far, the two algorithms are not found for iris recognition in literature. In addition, a simple and fast training algorithm, particle swarm optimization (PSO), is also introduced for training the Probabilistic ..."""
+152,"
+                  Comparison on PCA ICA and LDA in Face Recognition
+                  ","""... Face recognition is used in wide range of application. In recent years, face recognition has become one of the most successful applications in image analysis and understanding. Different statistical method and research groups reported a contradictory result when comparing principal component analysi ..."""
+153,"
+                  Jointly Modeling Aspects and Opinions with a MaxEnt-LDA Hybrid
+                  ","""... Discovering and summarizing opinions from online reviews is an important and challenging task. A commonly-adopted framework generates structured review summaries with aspects and opinions. Recently topic models have been used to identify meaningful review aspects, but existing topic models do not id ..."""
+154,"
+                  Pose Adaptive LDA Based Face Recognition
+                  ","""... In this paper, a novel method based on pose adaptive linear discriminant analysis (PALDA) is proposed to deal with pose variation problems in face recognition when each person has only one frontal training sample. The basic idea of the PALDA method is described as follows: first, the pose style of t ..."""
+155,"
+                  Accurate Face Recognition Using PCA and LDA
+","""... Face recognition from images is a sub-area of the general object recognition problem. It is of particular interest in a wide variety of applications. Here, the face recognition is based on the new proposed modified PCA algorithm by using some components of the LDA algorithm of the face recognition.  ..."""
+156,"
+                  An efficient method of DFT/LDA band-gap correction
+                  ","""...  a b s t r a c t It has been shown that the underestimated by DFT/LDA(GGA) band-gap can be efficiently corrected by an averaging procedure of transition energies over a region close to the direct band-gap transition, which we call the ∆(EIG) method (the differences in the Kohn-Sham eigenvalues). For ..."""
+157,"
+LDA-SVM-Based EGFR Mutation Model for NSCLC
+                  ","""... Abstract: Epidermal growth factor receptor (EGFR) activating mutations are a predictor of tyrosine kinase inhibitor effectiveness in the treatment of non–small-cell lung cancer (NSCLC). The objective of this study is to build a model for predicting the EGFR mutation status of brain metastasis in pat ..."""
+158,"
+                  Topic Modeling using LDA with Feedback Mechanisms
+                  ","""... Abstract—Topic models provide a way to identify the latent topics from a collection of documents. Although the identified topics often appear quite representative of the data; just as often, there are parts of the output that appear erroneous or otherwise difficult to interpret by humans. This is a  ..."""
+159,"
+                  References WISA & LDA (2002). Management of
+                  ","""... Phumdis are commonly known as floating grass Islands found on the water bodies. In India, it is reported from Loktak Lake, Manipur. During a field visit, it was interested to note a small piece of Phumdis found in a natural pond located (10.501720 N, 78.75771 E) on a hill near Narthamalai, Pudukkott ..."""
+160,"
+                  HETEROGENEOUS FACE RECOGNITION USING KERNEL LDA METHOD
+                  ","""... Here we propose the novel method to recognize the heterogeneous face recognition. Initially we remove the noise from the image. To remove the noise present in the image we use median filter. The system involves using a relational feature representation for face images by using kernel similarities be ..."""
+161,"
+                  Dimensionality Reduction and Classification through PCA and LDA
+","""... Information explosion has occurred in most of the sciences and researches due to advances in data collection and storage capacity in last few decades. Advance datasets with large number of observations present new challenges in data, mining, analysis and classification. Traditional statistical metho ..."""
+162,"
+                  Measuring Particle Transverse Velocity Using an LDA
+","""...  Four problems encountered in making transverse velocity measurements with an LDA are alignment of the optical system, velocity bias correction, avoidance of incomplete signal bias, and collecting sufficient data. Each problem is discussed and the method used to overcome each is presented for the ca ..."""
+163,"
+                  Learning Local Image Descriptors
+                  ","""... Abstract—In this paper, we explore methods for learning local image descriptors from training data. We describe a set of building blocks for constructing descriptors which can be combined together and jointly optimized so as to minimize the error of a nearest-neighbor classifier. We consider both li ..."""
+164,"
+                  Algorithms and networks for accelerated convergence of adaptive  LDA
+","""...   ..."""
+165,"
+                  The LDA+DMFT route to identify good thermoelectrics
+                  ","""... Abstract For technical applications thermoelectric materials with a high figure of merit are desirable, and strongly correlated electron systems are very promising in this respect. Since effects of bandstructure and electronic correlations play an important role for getting large figure of merits, t ..."""
+166,"
+                  Understanding MOOC Discussion Forums using Seeded LDA
+","""... Discussion forums serve as a platform for student discussions in massive open online courses (MOOCs). Analyzing content in these forums can uncover useful informa-tion for improving student retention and help in initiating instructor intervention. In this work, we explore the use of topic models, pa ..."""
+167,"
+                  VuUblo Do.ca Fle lda
+","""... volume IV, number 2 ..."""
+168,"
+                  Summary Statistical Techniques and Qualitative Adjustments for LDA
+","""... The main focus in this presentation is a commentary on the current and emerging statistical procedures for analysing operational risk losses as part of the Loss Distribution Approach to advanced measurement. The Basel Capital Accord, Basel II, proposes this as a requirement for regulatory capital ca ..."""
+169,"
+                  Shapes of Features and A Modified Measure for LDA Abstract:
+                  ","""... In this paper, the problem of selecting most representative features among a feature set is considered. Two new feature selection algorithms are introduced and their performances are compared with some well-known feature selection algorithms. The algorithms are tested with the iris data set, three a ..."""
+170,"
+                  a laminar separation bubble by means of LDA and PIV
+                  ","""... on controlled transition development in ..."""
+171,"
+                  FACE VERIFICATION USING LDA AND MLP ON THE BANCA DATABASE
+                  ","""... e-mail secre- ..."""
+172,"
+                  The New Face Recognition Technique With the use of PCA and LDA
+","""...   ..."""
+173,"
+                  A SYMMETRIC TRANSFORMATION FOR LDA-BASED FACE VERIFICATION
+                  ","""... e-mail secre- ..."""
+174,"
+                  REAL (KIND=nag_wp) A(LDA,N)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose G05PXF generates a random orthogonal matrix. ..."""
+175,"
+                  real A(LDA,*), ZETA(*), WORK(*) CHARACTER*1
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F01QKF returns the first ‘ rows of the real n by n orthogonal matrix P T, where P is given as the product o ..."""
+176,"
+                  complex*16 ALPHA, X(*), Y(*), A(LDA,*)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F06SRF (ZHER2) performs the Hermitian rank-2 update operation A xy H þ yx H þ A where A is an n by n comple ..."""
+177,"
+                  complex*16 A(LDA,*), TAU(*), WORK(*)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F08CWF (ZUNGRQ) generates all or part of the complex n by n unitary matrix Q from an RQ factorization compu ..."""
+178,"
+                  complex*16 A(LDA,*), TAU(*), WORK(*)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F08BVF (ZTZRZF) reduces the m by n (m form by means of unitary transformations. n) complex upper trapezoida ..."""
+179,"
+                  real A(LDA,*), SCALE(*) CHARACTER*1
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F08NHF (SGEBAL=DGEBAL) balances a real general matrix in order to improve the accuracy of computed eigenval ..."""
+180,"
+                  complex*16 A(LDA,*), TAU(*), WORK(*)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. ..."""
+181,"
+                  COMPLEX (KIND=nag_wp) A(LDA,*)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F07KRF (ZPSTRF) computes the Cholesky factorization with complete pivoting of a complex Hermitian positive  ..."""
+182,"
+                  COMPLEX (KIND=nag_wp) A(LDA,*), X(*)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose ..."""
+183,"
+LDA+DMFT implemented with the pseudopotential plane-wave
+                  ","""... approach ..."""
+184,"
+                  the V(001) surface: LDA versus GGA.
+                  ","""... All-electron and pseudopotential study of the spin-polarization of ..."""
+185,"
+                  DOUBLE PRECISION A(LDA,∗), B(LDB,∗) INTEGER
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check for implementation-dependent details. You are advised to enclose any calls to NAG Parallel Library routines between calls to Z01AAFP and Z01ABFP. 1 Description F04FBFP calculates the solution of a set of r ..."""
+186,"
+                  Data Analysis and Dimension Reduction- PCA, LDA and LSA
+                  ","""... • Goal: discover significant patterns or features from the input data ..."""
+187,"
+                  Supervised Classification Using Sparse Fisher’s LDA
+","""... It is well known that in a supervised classification setting when the number of features, p, is smaller than the number of observations, n, Fisher’s linear discriminant rule asymptotically achieves Bayes rule. However, there are numerous applications where classification is needed in the p>> n ..."""
+188,"
+                  Improved LDA by using Distributing Distances and Boundary Patterns
+                  ","""... Abstract- One of the statistical methods of class discriminant is linear discriminant analysis. This method, by using statistical parameters, obtain a space which by using available discriminating information among class means does classification act. By using distributing Distances, extended analys ..."""
+189,"
+                  Contrast of	
+  LDA	
+  Extensions 3 Topic Model	
+  	
+  =
+                  ","""... over topics (docs) DistribuTons over words (topics) ..."""
+190,"
+                  PLDA based Speaker Verification with Weighted LDA Techniques
+                  ","""... This is the author’s version of a work that was submitted/accepted for pub-lication in the following source: ..."""
+191,"
+                  Limbu Literature Development Association (LiLDA)
+                  ","""... Reading and writing in our mother tongue is something many people take for granted. But, as this case study from Nepal reveals, introducing mother tongue literacy can entail a long struggle against both political and practical hurdles. Although the right for children to learn in their mother tongue  ..."""
+192,"
+                  PARTIAL LDA VS PARTIAL PCA 1
+                  ","""... Recently, 3D face recognition algorithms have outperformed 2D conventional approaches by adding depth data to the problem. However, independently of the nature (2D or 3D) of the approach, the majority of them required the same data format in the test stage than the data used for training the system. ..."""
+193,"
+                  A CORRELATED TOPIC MODEL OF SCIENCE 
+                  ","""... Topic models, such as latent Dirichlet allocation (LDA), can be useful tools for the statistical analysis of document collections and other discrete data. The LDA model assumes that the words of each document arise from a mixture of topics, each of which is a distribution over the vocabulary. A limi ..."""
+194,"
+                  Block-LDA: Jointly modeling entity-annotated text and entity-entity
+                  ","""... links ..."""
+195,"
+                  A Maximum Uncertainty LDA-based approach for Limited Sample Size Problems -- with . . .
+                  ","""... A critical issue of applying Linear Discriminant Analysis (LDA) is both the singularity and instability of the within-class scatter matrix. In practice, particularly in image recognition applications such as face recognition, there are often a large number of pixels or pre-processed features availab ..."""
+196,"
+                  A collapsed variational bayesian inference algorithm for latent dirichlet allocation
+                  ","""... Latent Dirichlet allocation (LDA) is a Bayesian network that has recently gained much popularity in applications ranging from document modeling to computer vision. Due to the large scale nature of these applications, current inference procedures like variational Bayes and Gibbs sampling have been fo ..."""
+197,"
+                  Online LDA: Adaptive Topic Model for Mining Text Streams with Application on Topic Detection and
+                  ","""... This paper presents Online Topic Model (OLDA), a topic model that automatically captures the thematic patterns and identifies emerging topics of text streams and their changes over time. Our approach allows the topic modeling framework, specifically the Latent Dirichlet Allocation (LDA) model, to wo ..."""
+198,"
+                  An Efficient Algorithm for LDA Utilizing the Relationship between LDA and the generalized Minimum Squared Error Solution 
+                  ","""... In this paper, we study the relationship between Linear Discriminant Analysis (LDA) and the generalized Minimum Squared Error (MSE) solution. We show that the generalized MSE solution is equivalent to applying a certain classification rule in the space transformed by LDA. The relationship of the MSE ..."""
+199,"
+                  SVD-LDA: A Combined Model for Text Classification 5 SVD-LDA: A Combined Model for Text Classification
+                  ","""... Abstract: Text data has always accounted for a major portion of the world’s information. As the volume of information increases exponentially, the portion of text data also increases significantly. Text classification is therefore still an important area of research. LDA is an updated, probabilistic ..."""
+200,"
+                  Dragon Boats ACT LDA – Guest Speaker Dragon Boats ACT LDA – Guest Speaker
+                  ","""... The meeting was opened and chaired by Mr Peter Beutel (NCA Asset Manager) at 9:00am and welcomed all attending. The 2015 Chair (Nick Hunter) was unable to attend the meeting. ..."""
+201,"
+                  Mixing Proportions Bayesian Approach Dirichlet Prior LDA Mixture Components Bayesian Inference for LDA
+","""... Inference with variational approximation and Gibbs sampling ..."""
+202,"
+                  Subspace Linear Discriminant Analysis for Face Recognition
+                  ","""... In this paper we describe a holistic face recognition method based on subspace Linear Discriminant Analysis (LDA). The method consists of two steps: first we project the face image from the original vector space to a face subspace via Principal Component Analysis where the subspace dimension is care ..."""
+203,"
+LDA+: A TCP-Friendly Adaptation Scheme for Multimedia Communication
+                  ","""... In this paper, we present an end-to-end adaptation scheme, called the enhanced loss-delay based adaptation algorithm (LDA+), for regulating the transmission behavior of multimedia senders in accordance with the network congestion state. LDA+ uses the real-time transport protocol (RTP) for collecting ..."""
+204,"
+                  Characterizing microblogs with topic models
+                  ","""... As microblogging grows in popularity, services like Twitter are coming to support information gathering needs above and beyond their traditional roles as social networks. But most users ’ interaction with Twitter is still primarily focused on their social graphs, forcing the often inappropriate conf ..."""
+205,"
+                  People-LDA: Anchoring topics to people using face recognition
+                  ","""...  ..."""
+206,"
+                  ET-LDA: Joint Topic Modeling for Aligning Events and their Twitter Feedback
+                  ","""... During broadcast events such as the Superbowl, the U.S. Presidential and Primary debates, etc., Twitter has become the de facto platform for crowds to share perspectives and commentaries about them. Given an event and an associated large-scale collection of tweets, there are two fundamental research ..."""
+207,"
+                  Selecting Principal Components in a Two-Stage LDA Algorithm. CVPR06
+                  ","""... Linear Discriminant Analysis (LDA) is a well-known and important tool in pattern recognition with potential applications in many areas of research. The most famous and used formulation of LDA is that given by the Fisher-Rao criterion, where the problem reduces to a simple simultaneous diagonalizatio ..."""
+208,"
+                  Geometric lda: A generative model for particular object discovery
+                  ","""... Automatically organizing collections of images presents serious challenges to the current state-of-the art methods in image data mining. Often, what is required is that images taken in the same place, of the same thing, or of the same person be conceptually grouped together. To achieve this, we intr ..."""
+209,"
+                  Improving LDA Topic Models for Microblogs via Tweet Pooling and Automatic Labeling
+                  ","""... Twitter, or the world of 140 characters poses serious challenges to the efficacy of topic models on short, messy text. While topic mod-els such as Latent Dirichlet Allocation (LDA) have a long history of successful application to news articles and academic abstracts, they are often less coherent whe ..."""
+210,"
+                  Robust Speech Recognition Using Missing Feature Theory in the Cepstral or LDA Domain
+                  ","""... When applying Missing Feature Theory to noise robust speech recognition, spectral features are labeled as either reliable or unreliable in the time-frequency plane. The acoustic model evaluation of the unreliable features is modified to express that their clean values are unknown or confined within  ..."""
+211,"
+                  A Direct LDA Algorithm for High-DimensionalData -- with Application to Face Recognition
+                  ","""... this paper, we present a direct, exact LDA algorithm for high dimensional data set. It accepts high dimensional data (such as raw images) as input, and optimizes Fisher&aposs criterion directly, without any feature extraction or dimensionality reduction steps. ..."""
+212,"
+                  Named entity recognition in tweets: An experimental study.
+                  ","""...  Abstract People tweet more than 100 Million times daily, yielding a noisy, informal, but sometimes informative corpus of 140-character messages that mirrors the zeitgeist in an unprecedented manner. The performance of standard NLP tools is severely degraded on tweets. This paper addresses this issu ..."""
+213,"
+                  Boosting image classification with LDA-based feature combination for digital photograph management
+                  ","""... Image classification is of great importance for digital photograph management. In this paper we propose a general statistical learning method based on boosting algorithm to perform image classification for photograph annotation and management. The proposed method employs both features extracted from ..."""
+214,"
+                  A Novel Gabor-LDA Based Face Recognition Method
+                  ","""... Abstract. In this paper, a novel face recognition method based on Gabor-wavelet and linear discriminant analysis (LDA) is proposed. Given training face images, discriminant vectors are computed using LDA. The function of the discriminant vectors is two-fold. First, discriminant vectors are used as a ..."""
+215,"
+                  A relationship between LDA and the generalized minimum squared error solution
+                  ","""... In this paper, a relationship between Linear Discriminant Analysis (LDA) and the generalized Minimum Squared Error (MSE) solution is presented. The generalized MSE solution is shown to be equivalent to applying a certain classification rule in the space defined by LDA. The relationship between the M ..."""
+216,"
+                  TM-LDA: Efficient Online Modeling of the Latent Topic Transitions in Social Media
+                  ","""... Latent topic analysis has emerged as one of the most effective methods for classifying, clustering and retrieving textual data. However, existing models such as Latent Dirichlet Allocation (LDA) were developed for static corpora of relatively large documents. In contrast, much of the textual content ..."""
+217,"
+                  Exploring Supervised LDA Models for Assigning Attributes to Adjective-Noun Phrases
+                  ","""... This paper introduces an attribute selection task as a way to characterize the inherent meaning of property-denoting adjectives in adjective-noun phrases, such as e.g. hot in hot summer denoting the attribute TEMPERATURE, rather than TASTE. We formulate this task in a vector space model that represe ..."""
+218,"
+LDA-Based Compound Distance for Handwritten Chinese Character Recognition
+                  ","""... In this paper, we propose a linear discriminant analysis (LDA)-based compound distance measure for discriminating similar characters in handwritten Chinese character recognition. The previous compound Mahalanobis function (CMF) is shown to be a special case of the proposed method. On finding similar ..."""
+219,"
+                  SpeakerLDA: Discovering Topics in Transcribed Multi-Speaker Audio Contents
+                  ","""...  ABSTRACT Topic models such as Latent Dirichlet Allocation (LDA)  ..."""
+220,"
+                  The Geometry of LDA and PCA Classifiers Illustrated with 3D Examples
+                  ","""... understanding of the connection between Principal Component Analysis and Gaussian Distributions. It contains a running example showing how Fisher Discriminants are computed and what they look like for an illustrative 3 class problem in 3 dimensional space. Maple 6.0 was used to write this report, an ..."""
+221,"
+                  Multi-Modal Image Annotation with Multi-Instance Multi-Label LDA ∗
+                  ","""... This paper studies the problem of image annotation in a multi-modal setting where both visual and tex-tual information are available. We propose Multi-modal Multi-instance Multi-label Latent Dirichlet Allocation (M3LDA), where the model consists of ..."""
+222,"
+                   Spatially coherent latent topic model for concurrent object segmentation and classification
+                  ","""...   We present a novel generative model for simultaneously recognizing and segmenting object and scene classes. Our model is inspired by the traditional bag of words representation of texts and images as well as a number of related generative models, including probabilistic Latent Sematic Analysis (pL ..."""
+223,"
+                  Cancer classification by gradient LDA technique using microarray gene . . . 
+                  ","""...  ..."""
+224,"
+                  Object tracking using incremental 2d-lda learning and bayes inference
+                  ","""... The appearances of the tracked object and its surrounding background usually change during tracking. As for tracking methods using subspace analysis, fixed subspace basis tends to cause tracking failure. In this paper, a novel tracking method is proposed by using incremental 2D-LDA learning and Baye ..."""
+225,"
+                  Object Matching in Distributed Video Surveillance Systems by LDA-Based Appearance Descriptors
+                  ","""... Object matching in distributed video surveillance systems by LDA-based appearance descriptors ..."""
+226,"
+                  Face recognition using PCA, LDA and ICA approaches on colored images
+                  ","""... In this paper, the performances of appearance-based statistical methods such as Principal Component Analysis (PCA), Linear Discriminant Analysis (LDA) and Independent Component Analysis (ICA) are tested and compared for the recognition of colored face images. Three sets of experiments are conducted  ..."""
+227,"
+                  Sampling Representative Examples for Dimensionality Reduction and Recognition – Bootstrap Bumping LDA
+","""... Abstract. We present a novel method for dimensionality reduction and recognition based on Linear Discriminant Analysis (LDA), which specifically deals with the Small Sample Size (SSS) problem in Computer Vision applications. Unlike the traditional methods, which impose specific assumptions to addres ..."""
+228,"
+                  To Weight or not to Weight: Source-Normalised LDA for Speaker Recognition using i-vectors
+                  ","""... Source-normalised Linear Discriminant Analysis (SN-LDA) was recently introduced to improve speaker recognition using i-vectors extracted from multiple speech sources. SN-LDA normalises for the effect of speech source in the calculation of the between-speaker covariance matrix. Sourcenormalised-and-w ..."""
+229,"
+                  A Multimodal LDA Model Integrating Textual, Cognitive and Visual Modalities
+                  ","""... Recent investigations into grounded models of language have shown that holistic views of language and perception can provide higher performance than independent views. In this work, we improve a two-dimensional multimodal version of Latent Dirichlet Allocation (Andrews et al., 2009) in various ways. ..."""
+230,"
+                  Independent Comparative Study of PCA, ICA, and LDA on the FERET Data Set
+                  ","""... ABSTRACT: Face recognition is one of the most successful applications of image analysis and understanding and has gained much attention in recent years. Various algorithms were proposed and research groups across the world reported different and often contradictory results when comparing them. The a ..."""
+231,"
+                  CARS Temperature and LDA Velocity Measurements in a Turbulent Swirling
+                  ","""...  ABSTRACT This paper present results from a research program being conducted at the Advanced Combustion Engineering Research Center (ACERC) at Brigham Young University (BYU). This study is part of a comprehensive effort supported by the Advanced Gas Turbine Systems Research (ATS) Program headquarter ..."""
+232,"
+                  Face Recognition using a Color Subspace LDA approach
+                  ","""... This paper delves into the problem of face recognition using color as an important cue in improving the accuracy of recognition. To perform recognition of color images, we use the characteristics of a 3D color tensor to generate a color LDA subspace, which in turn can be used to recognize a new prob ..."""
+233,"
+                  Subspace LDA Methods for Solving the Small Sample Size Problem in Face Recognition
+                  ","""... Abstract – In face recognition, LDA often encounters the so-called small sample size (SSS) problem, also known as curse of dimensionality. This problem occurs when the dimensionality of the data is quite large in comparison to the number of available training images. One of the approaches for handli ..."""
+234,"
+                  Object matching in distributed video surveillance systems by LDA-based appearance descriptors
+                  ","""... Establishing correspondences among object instances is still challenging in multi-camera surveillance systems, especially when the cameras’ fields of view are non-overlapping. Spatiotemporal constraints can help in solving the correspondence problem but still leave a wide margin of uncertainty. One  ..."""
+235,"
+                  Gene Selection for Microarray Data by a LDA-based Genetic Algorithm
+                  ","""... Abstract. Gene selection aims at identifying a (small) subset of informative genes from the initial data in order to obtain high predictive accuracy. This paper introduces a new wrapper approach to this difficult task where a Genetic Algorithm (GA) is combined with Fisher’s Linear Discriminant Analy ..."""
+236,"
+                  You Too?! Mixed-Initiative LDA Story Matching to Help Teens in Distress
+                  ","""... Adolescent cyber-bullying on social networks is a phenomenon that has received widespread attention. Recent work by sociologists has examined this phenomenon under the larger context of teenage drama and it&aposs manifestations on social networks. Tackling cyber-bullying involves two key components ..."""
+237,"
+                  Experimental Study on Multiple LDA Classifier Combination for High Dimensional Data Classification
+                  ","""... Abstract. Multiple classifier systems provide an effective way to improve pattern recognition performance. In this paper, we use multiple classifier combination to improve LDA for high dimensional data classification. When dealing with the high dimensional data, LDA often suffers from the small samp ..."""
+238,"
+                  Limitations of Gaussian Beam Property Based LDA-Velocity Profile Measurement
+                  ","""... Abstract When Gaussian laser beam properties are exploited in laser-Doppler anemometry (LDA), fringe patterns can be produced in the measuring volume of LDA-optical systems that show a linear variation of fringe spacing with position. This effect can be utilized to carry out velocity profile measure ..."""
+239,"
+                  Null Space-Based Lda With Weighted Dual Personal Subspaces For Face Recognition
+                  ","""... Linear discriminant analysis (LDA) is popular feature extraction technique for face recognition. However, it often suffers the small sample size problem when dealing with the high dimensional face data. Moreover, the within-class and between-class scatter matrix used in LDA have low effective when d ..."""
+240,"
+                  Plink-LDA: using link as prior information in topic modeling
+                  ","""... Abstract. Citations are highly valuable for analyzing documents and have been widely studied in recent years. Among the document modeling, the citations are treated as documents ’ attributes just like the words in the documents; or as the degrees in graph theory. These methods add citations into wor ..."""
+241,"
+                  rsLDA: a Bayesian Hierarchical Model for Relational Learning
+                  ","""... Abstract—We introduce and evaluate a technique to tackle relational learning tasks combining a framework for mining relational queries with a hierarchical Bayesian model. We present the novel rsLDA algorithm that works as follows. It initially discovers a set of relevant features from the relational ..."""
+242,"
+                  Brief Papers_______________________________________________________________________________ Face Recognition Using LDA-Based Algorithms
+                  ","""... Abstract—Low-dimensional feature representation with enhanced discriminatory power is of paramount importance to face recognition (FR) systems. Most of traditional linear discriminant analysis (LDA)-based methods suffer from the disadvantage that their optimality criteria are not directly related to ..."""
+243,"
+                  Utilizing the Relationship between LDA and the generalized Minimum Squared Error Solution
+                  ","""... In this paper, we study the relationship between Linear Discriminant Analysis (LDA) and the generalized Minimum Squared Error (MSE) solution. We show that the generalized MSE solution is equivalent to applying a certain classification rule in the space transformed by LDA. The relationship of the MSE ..."""
+244,"
+                  ORIGINAL ARTICLE From NLDA to LDA/GSVD: a modified NLDA algorithm
+                  ","""... Abstract Linear discriminant analysis (LDA) often encounters small sample size (SSS) problem for high-dimensional data. Null space linear discriminant analysis (NLDA) and linear discriminant analysis based on gen-eralized singular value decomposition (LDA/GSVD) are two popular methods that can solve ..."""
+245,"
+                  Event detection via lda for the mediaeval 2012 sed task
+                  ","""... In this paper we present our methodology for the Social Event Detection Task of the MediaEval 2012 Benchmarking Initiative. We adopt topic discovery using Latent Dirichlet Allocation (LDA), city classification using TF-IDF analysis, and other statistical and natural language processing methods. Afte ..."""
+246,"
+                  Toward improvement of SDR accuracy using LDA and query expansion for SpokenDoc
+                  ","""... This paper investigates several techniques for spoken document retrieval, toward improvement of retrieval performance based on the conventional method i.e. TF-IDF. The first approach employs rescaled unigrams of LDA to compute a similarity score. The second technique employs query expansion by web r ..."""
+247,"
+                  Approximate LDA Technique for Dimensionality Reduction in the Small Sample Size Case
+                  ","""... The regularized linear discriminant analysis (LDA) technique overcomes the small sample size (SSS) problem by adding a regularization parameter to the eigenvalues of within-class scatter matrix. However, it has some drawbacks. In this paper we address its drawbacks and propose an improvement. The pr ..."""
+248,"
+                  Ab initio calculation of the thermal properties of Cu: Performance of the LDA and GGA
+                  ","""... The thermal properties of bulk copper are investigated by performing ab initio DFT and DFPT calculations and using the quasiharmonic approximation for the free energy. Using both the LDA and the GGA for the exchangecorrelation potential, we compute the temperature dependence of the lattice constant, ..."""
+249,"
+                  TagLDA: Bringing document structure knowledge into topic models
+                  ","""... Latent Dirichlet Allocation models a document by a mixture of topics, where each topic itself is typically modeled by a unigram word distribution. Documents however often have known structures, and the same topic can exhibit different word distributions under different parts of the structure. We ext ..."""
+250,"
+                  Investigations on Disturbance Amplification in a Laminar Separation Bubble by Means of LDA and PIV
+                  ","""... Laminar-turbulent transition is an important feature in aerospace aerodynamics because of its influence on fuel consumption via the drag. Despite many years of research on fundamental mechanisms of the transition process in many generic configurations relevant for aircrafts, as well as other applica ..."""
+251,"
+                  Face Recognition using PCA and LDA with Singular Value Decomposition(SVD) using
+                  ","""... well-known scheme for feature extraction and dimension reduction. It has been used widely in many applications involving high-dimensional data, such as face recognition. In this paper we present a new variant on Linear Discriminant Analysis (LDA) for face recognition by reducing dimensions of input  ..."""
+252,"
+                  Author Profiling Using LDA and Maximum Entropy—Notebook for PAN at CLEF 2013
+                  ","""... Abstract. This paper describes the traditional authorship attribution subtask of the PAN/CLEF 2013 workshop. In our attempt to classify the documents based on gender and age of an author, we have applied a traditional approach of topic modeling using Latent Dirichlet Allocation[LDA]. We used the con ..."""
+253,"
+                  Face Recognition using Radial Basis Function Network based on LDA
+","""... Abstract—This paper describes a method to improve the robustness of a face recognition system based on the combination of two compensating classifiers. The face images are preprocessed by the appearance-based statistical approaches such as Principal Component Analysis (PCA) and Linear Discriminant A ..."""
+254,"
+                  Spatial-DiscLDA for Visual Recognition Gang Hua 2
+                  ","""... Topic models such as pLSA, LDA and their variants have been widely adopted for visual recognition. However, most of the adopted models, if not all, are unsupervised, which neglected the valuable supervised labels during model training. In this paper, we exploit recent advancement in supervised topic ..."""
+255,"
+                  An empirical method for efficient spectrum estimation from LDA data
+                  ","""... Recovery of reliable spectral information from LDA data is fraught with difficulties that have been extensively considered in the past. In this paper, an empirical decomposition method is employed for removing noise from ..."""
+256,"
+                  Comparative Research of PCA+AdaBoost and PCA+LDA for Face Recognition Technology
+                  ","""... Abstract. Despite of the development of face recognition technology; face recognition rate is not high, which brings some inconvenience in our application. This paper carry on a simple introduction of PCA+AdaBoostalgorithm and PCA+LDA algorithm and makes a simple comparison at the end. PCA+AdaBoost  ..."""
+257,"
+                  Multi-component LDA using coherence properties of semiconductor lasers
+                  ","""... We present a multi-component Laser-Doppler Anemometer, in which the channel separation is based on a new method of using the coherence properties of different semiconductor lasers, one for each LDA beam. Instead of requiring, for example, bulky multi-wavelengths lasers, additional opto-electronic co ..."""
+258,"
+                  Do Unbalanced Data Have a Negative Effect on LDA?
+                  ","""... For two-class discrimination, Ref. [1] claimed that, when covariance matrices of the two classes were unequal, a (class) unbalanced dataset had a negative effect on the performance of linear discriminant analysis (LDA). Through re-balancing 10 realworld datasets, Ref. [1] provided empirical evidence ..."""
+259,"
+                  Mediaeval benchmark: Social Event Detection using LDA and external resources
+                  ","""... This article presents two methods for the automatic detection of social events that were evaluated on the annotated set of pictures as part of the 2011 Mediaeval benchmark [1]. The first method uses a set of web pages and a semantic space obtained by Latent Dirichelet Allocation (LDA, [2, 3]) to cla ..."""
+260,"
+                  NONLINEAR RESPONSE IN DENSITY FUNCTIONAL THEORY: LDA VERSUS EXACT
+                  ","""... We present a local density approximation (LDA) for onedimensional systems in-teracting via softCoulomb interaction based on Monte Carlo calculations. Results for the groundstate energies and ionization potentials of finite systems show excel-lent agreement with the exact calculations. Similarly to w ..."""
+261,"
+                  FACE RECOGNITION USING PCA AND LDA TECHNIQUE FOR NOISY FACES
+                  ","""... Abstract — Face recognition is always a popular area of research. There are various techniques used in the face recognition system. Principal component analysis (PCA) and linear discriminate analysis (LDA) techniques are the two most well-known techniques for the face recognition. In this paper, the ..."""
+262,"
+                  Reformulation of the LDA+U method for a local orbital basis
+                  ","""... We present a new approach to the evaluation of the on-site repulsion energy U for use in the LDA+U method of Anisimov and collaborators. Our objectives are to make the method more firmly based, to concentrate primarily on ground state properties rather than spectra, and to test the method in cases w ..."""
+263,"
+                  A SURVEY ON LDA APPROACH IN PREDICTING LINK BEHAVIOR IN A SOCIAL NETWORK
+                  ","""... Abstract—Social network sites (SNS) in recent times are focusing mainly on user interactions. These SNS are attracting the attention of academic and industry researchers who are intrigued by their accordance and reach rapidly. Mainly data mining techniques have been very effective in using the conte ..."""
+264,"
+                  EFFICIENT CLASSIFICATION FOR LARGE-SCALE PROBLEMS BY MULTIPLE LDA SUBSPACES
+                  ","""... LDA, image classification, large databases In this paper we consider the limitations of Linear Discriminative Analysis (LDA) when applying it for largescale problems. Since LDA was originally developed for two-class problems the obtained transformation is sub-optimal if multiple classes are consider ..."""
+265,"
+                  Full-SpaceLDA With Evolutionary Selection for Face Recognition&apos
+                  ","""... Linear Discriminant Analysis (LDA) is a popular feature extraction technique for face recognition. However, it often suffers from the small sample size problem when dealing with the high dimensionalface data. Some approaches have been proposed to overcome this problem, but they usually utilize all e ..."""
+266,"
+                  Bandstructure meets many-body theory: The LDA+DMFT method
+                  ","""... Abstract. Ab initio calculation of the electronic properties of materials is a major challenge for solid state theory. Whereas the experience of forty years has proven density functional theory (DFT) in a suitable, e.g. local approximation (LDA) to give a satisfactory description in case electronic  ..."""
+267,"
+                  Study of Ce intermetallic compounds: an LDA classification and hybridization effects
+                  ","""... Spin-polarized calculations within the LDA approximation have been done with the goal of characterizing Ce intermetallic compounds. Symmetry and chemical environment effects on 4f hybridization and, thereafter, on magnetization effects have been studied. I. ..."""
+268,"
+                  Comparison of PCA and LDA based Face Recognition Technique in Noisy Environment
+                  ","""... Abstract — In the face recognition technique there are various types of noises present. In this paper I am going to detect the noise in the given faces in the face recognition using feature extractions in the two different and well know technique known as PCA and LDA technique. In this paper I am go ..."""
+269,"
+                  Classification of Arrhythmias with LDA and ANN using Orthogonal Rotations for Feature Reduction
+                  ","""... This paper presents a new approach for feature reduction by using orthogonal rotations. Wavelet coefficients for beat segments are taken as features which are reduced by factor analysis method using orthogonal rotations. LDA (Linear Discriminant Analysis) and ANN (Artificial Neural Network) classifi ..."""
+270,"
+                  Robust Speech/non-Speech Detection Using Lda Applied To Mfcc
+                  ","""... In speech recognition, a speech/non-speech detection must be robust to noise. In this work, a new method for speech/nonspeech  detection using a Linear Discriminant Analysis (LDA)  applied to Mel Frequency Cepstrum Coefficients (MFCC) is presented. The energy is the most discriminant parameter betwe ..."""
+271,"
+                  A Hybrid Anomaly Detection Model using G-LDA
+","""... Abstract — Anomaly detection is one of the important challenges of network security associated today. We present a novel hybrid technique called G-LDA to identify the anomalies in network traffic. We propose a hybrid technique integrating Latent Dirichlet Allocation and genetic algorithm namely the  ..."""
+272,"
+                  Promoting Ranking Diversity for Biomedical Information Retrieval based on LDA
+","""... Abstract—In this paper, we propose an approach based on a topic generative model called Latent Dirichlet Allocation (LDA) to promoting ranking diversity for biomedical information retrieval. Different from other approaches or models which consider aspects on word level, our approach assumes that asp ..."""
+273,"
+                  3D Face Recognition using Radon Transform and Symbolic LDA
+","""... Many recent events, such as terrorist attacks, have exposed the serious weaknesses in most sophisticated security systems. Three dimensional (3D) human face recognition is emerging as a significant biometric technology. Research interest in 3D face recognition has increased during recent years due t ..."""
+274,"
+                  Superfluid LDA (SLDA): Local Density Approximation for Systems with Superfluid Correlations
+                  ","""... We present a concise account of our development of the first genuine Local Density Approximation (LDA) to the Energy Density Functional (EDF) for fermionic systems with superfluid correlations, with a particular emphasis to nuclear systems. 1. General remarks The theorem of Hohenberg and Kohn 1 conc ..."""
+275,"
+                  MedLDA: A General Framework of Maximum Margin Supervised Topic Models
+                  ","""... Supervised topic models utilize document’s side information for discovering predictive low dimensional representations of documents. Existing models apply the likelihood-based estimation. In this paper, we present a general framework of max-margin supervised topic models for both continuous and cate ..."""
+276,"
+                  FEASIBILITY OF LDA MEASUREMENTS IN HIGH VOID FRACTION BUBBLY FLOW
+                  ","""... The measurement of the time averaged and the turbulent fluctuations of the liquid phase velocity in a high void fraction bubbly flow is an important issue for multiphase flow research. In this study the feasibility of performing LDA measurements with a 27 mm diameter back-scattering LDA probe in a p ..."""
+277,"
+                  Going beyond Corr-LDA for detecting specific comments on news & blogs
+                  ","""... Understanding user generated comments in response to news and blog posts is an important area of research. After ig-noring irrelevant comments, one finds that a large fraction, approximately 50%, of the comments are very specific and can be further related to certain parts of the article instead of  ..."""
+278,"
+LDA - Scalable, Off-Line Multiprocessor Scheduling for Real-Time Systems
+                  ","""... Off-line task scheduling remains important for real-time systems since such algorithms may be used to schedule tasks known at the time of system initialization. The LDA algorithm described in this paper uses both task laxities and deadlines when deciding processor allocation and task scheduling for  ..."""
+279,"
+                  PCA, SFS or LDA: What is the Best Choice for Extracting Speaker
+                  ","""... Feature extraction is the process of deriving new weakly correlated features from the original features in order to reduce the cost of feature measurement, increase classifier efficiency, and allows higher classification accuracy. The selection and quality of the features representing each pattern h ..."""
+280,"
+                  Evaluation of PCA and LDA techniques for Face recognition using ORL face database
+                  ","""... Abstract-- In this paper, we present a face recognition system that identifies a person from the input image given, for authentication purposes. As a feature extraction technique, Linear Discriminant Analysis (LDA) is used. After the generation of features, the classification is performed using Eucl ..."""
+281,"
+                  A new optical technique for the generation of LDA-quadrature signals
+                  ","""... A novel LDA technique which uses two single frequency lasers, one for each LDA beam is presented. In contrast to previously presented techniques using the optical frequency difference of the lasers for directional discrimination, the technique described here generates a quadrature signal pair by an  ..."""
+282,"
+                  FACE RECOGNITION USING PCA, LDA AND VARIOUS DISTANCE CLASSIFIERS
+                  ","""... Abstract: Face recognition has become a major field of interest these days. Face recognition algorithms are used in a wide range of applications such as security control, crime investigation, and entrance control in buildings, access control at automatic teller machines, passport verification, ident ..."""
+283,"
+                  10-702 Project Report: Parallel LDA, Truth or Dare?
+                  ","""... Latent Dirichlet Allocation (LDA) is a popular topic model, which can be learned using Collapsed Gibbs Sampling. Although Collapsed Gibbs Sampling is inherently sequential, we show that parallel approximation of the original algorithm is able to learn as good models as the exact algorithm. We studie ..."""
+284,"
+                  LA-LDA: A Limited Attention Topic Model for Social Recommendation
+                  ","""... Abstract. Social media users have finite attention which limits the number of incoming messages from friends they can process. Moreover, they pay more attention to opinions and recommendations of some friends more than others. In this paper, we propose LA-LDA, a latent topic model which incorporates ..."""
+285,"
+                   Multi-Modal Biometrics Human Verification using LDA and DFB
+                  ","""... Biometrics is one of the recent trends in security, which is mainly used for 
+verification and recognition systems. By using biometrics we confirm a particular 
+person’s claimed identity based on particular person’s physiological or behavioral 
+characteristics such as fingerprint, face or voice etc. ..."""
+286,"
+                  An Efficient Method to Estimate Labelled Sample Size for Transductive LDA(QDA/MDA)
+                  ","""... Abstract. As semi-supervised classification drawing more attention, many practical semi-supervised learning methods have been proposed. However,one important issue was ignored by current literature–how to estimate the exact size of labelled samples given many unlabelled samples. Such an estimation m ..."""
+287,"
+                  IOS Press The PCA and LDA analysis on the differential expression of proteins in breast cancer
+                  ","""... Abstract. Breast cancer is a leading cause of mortality in women. In Malaysia, it is the most common cancer to affect women. The most common form of breast cancer is infiltrating ductal carcinoma (IDC). A proteomic approach was undertaken to identify protein profile changes between cancerous and nor ..."""
+288,"
+                  Interval Semi-supervised LDA: Classifying Needles in a Haystack
+                  ","""...  Abstract. An important text mining problem is to find, in a large collection of texts, documents related to specific topics and then discern further structure among the found texts. This problem is especially important for social sciences, where the purpose is to find the most representative docume ..."""
+289,"
+                  Efficient Training of LDA on a GPU by Mean-for-Mode Estimation
+                  ","""...  Abstract We introduce Mean-for-Mode estimation, a variant of an uncollapsed Gibbs sampler that we use to train LDA on a GPU. The algorithm combines benefits of both uncollapsed and collapsed Gibbs samplers. Like a collapsed Gibbs sampler -and unlike an uncollapsed Gibbs sampler -it has good statist ..."""
+290,"
+                  An Effective Feature Analytical Fisher-LDA approach for Face Recognition
+                  ","""... Abstract: Face is the most visible biometric component that having its importance not only in authentication system but in many other applications such as activity recognition. Face can be used as the off line as well as online facial component because of the availability of easy extraction of face  ..."""
+291,"
+                  Template Protection for PCA-LDA-based 3D Face Recognition Systems
+                  ","""... Abstract: Authentication based on biometrics became significantly important over the last years. Privacy and security concerns arise by the extensive deployment of bio-metrics. The used biometric features itself have to be secured. We propose a security mechanism that solves privacy related problems ..."""
+292,"
+                  NOISE FILTERING METHOD FOR COLOR IMAGES BASED ON LDA AND NONLINEAR DIFFUSION
+                  ","""... The purpose of noise filtering for images is to preserve fea-tures such as edge or corners in images, while reducing noise. Recent noise filtering algorithms based on diffusion equation shows the satisfactory results to some extent, if the noise is additive Gaussian noise. However, if the noise is n ..."""
+293,"
+                  Explore the Evolution of Development Topics via On-Line LDA
+","""... Abstract—Software repositories such as revision control sys-tems and bug tracking systems are usually used to manage the changes of software projects. During software maintenance and evolution, software developers and stakeholders need to investigate these repositories to identify what tasks were wo ..."""
+294,"
+                  End-to-End Differentiation of Congestion and Wireless Losses
+                  ","""... protocols for networks with either backbone or last-hop wireless links. As our basic video transport protocol, we use UDP in conjunction with a congestion control mechanism extended with an LDA. For congestion control, we use the TCP-Friendly Rate Control (TFRC) algorithm. We extend TFRC to use an L ..."""
+295,"
+                  PCA- Based Feature Extraction and LDA algorithm for Preterm Birth Monitoring
+                  ","""... Abstract. Most pregnancies last around 40 weeks. Babies born between 37 and 42 completed weeks of pregnancy are called full term. Premature birth is a serious health problem. Premature babies are at increased risk for newborn health complications, such as breathing problems, and even death. Most pre ..."""
+296,"
+                  Probabilistic Topic and Syntax Modeling with Part-of-Speech LDA
+","""... This article presents a probabilistic generative model for text based on semantic topics and syntactic classes called Part-of-Speech LDA (POSLDA). POSLDA simultaneously uncovers short-range syntactic patterns (syntax) and long-range semantic patterns (topics) that exist in document collections. This ..."""
+297,"
+                  LogisticLDA: Regularizing Latent Dirichlet Allocation by Logistic Regression?
+                  ","""... Abstract. We present in this paper a supervised topic model for multi-class classification problems. To incorporate supervisory information, we jointly model documents and their labels in a graphical model called LogisticLDA, which mathematically integrates a genera-tive model and a discriminative m ..."""
+298,"
+                  X-ray absorption branching ratio in actinides: LDA + DMFT approach
+                  ","""...  Abstract -To investigate the X-ray absorption (XAS) branching ratio from the core 4d to valence 5f states, we set up a theoretical framework by using a combination of density functional theory in the Local Density Approximation and Dynamical Mean-Field Theory (LDA + DMFT), and apply it to several a ..."""
+299,"
+LDA BASED FACE RECOGNITION BY USING HIDDEN MARKOV MODEL IN CURRENT TRENDS.
+                  ","""... Abstract: Hidden Markov model (HMM) is a promising method that works well for images with variations in lighting, facial expression, and orientation. Face recognition draws attention as a complex task due to noticeable changes produced on appearance by illumination, facial expression, size, orientat ..."""
+300,"
+                  A New Face Recognition Method using PCA, LDA and Neural Network
+                  ","""... Abstract—In this paper, a new face recognition method based on ..."""
+301,"
+                  An Lda Study Of Longitudinal Vortices Embedded In A Turbulent Boundary Layer
+                  ","""... A three-component Laser Doppler Anemometry (LDA) system was used to investigate the complex flow field generated by vortex generator jets in a turbulent boundary layer. The prominent feature of the flow is longitudinal vortices embedded in the boundary layer. The study was performed in a 3:5m \Theta ..."""
+302,"
+                  Online News Media Bias Analysis using an LDA-NLP Approach
+                  ","""... It is widely recognized that every media outlet has its own ”spin ” on news, and this bias has been described in many ways and at many levels. In political news for example, the bias can be liberal, conservative, moderate, corporate, etc. In addition, recent research has focused on the ’sentiment di ..."""
+303,"
+                  Sentiment Analysis using LDA on Product Reviews: A Survey
+                  ","""... This paper presents a survey of sentiments analysis for product review. Online social and news media has become a very popular for users to share their opinions and generate prosperous and timely information about real world events of all kinds. Several efforts were dedicated for mining opinions and ..."""
+304,"
+                  Distributed LDA based Topic Modeling and Topic Agglomeration in a Latent Space
+                  ","""... We describe the methodology that we followed to automatically extract topics corresponding to known events provided by the SNOW 2014 challenge in the context of the SocialSensor project. A data crawling tool and selected fil-tering terms were provided to all the teams. The crawled data was to be div ..."""
+305,"
+                  Face recognition using kernel direct discriminant analysis algorithms
+                  ","""... Abstract—Techniques that can introduce low-dimensional feature representation with enhanced discriminatory power is of paramount importance in face recognition (FR) systems. It is well known that the distribution of face images, under a perceivable variation in viewpoint, illumination or facial expr ..."""
+306,"
+                  RESEARCH Open Access LDA boost classification: boosting by topics
+                  ","""... AdaBoost is an efficacious classification algorithm especially in text categorization (TC) tasks. The methodology of setting up a classifier committee and voting on the documents for classification can achieve high categorization precision. However, traditional Vector Space Model can easily lead to  ..."""
+307,"
+                  A Survey of Document Clustering Techniques Comparison of LDA and moVMF
+                  ","""... This course project is mainly an overview of some widely used document clustering techniques. We begin with the basic vector space model, through its evolution, and extend to other more elaborate and statistically sound models. We compare two models in detail, the mixture of Von Mises-Fisher and Lat ..."""
+308,"
+                  An LDA-based relative hysteresis classifier with application to segmentation of retinal vessels
+                  ","""... In a pattern classification setup, image segmentation is achieved by assigning each pixel to one of two classes: object or background. The special case of vessel segmentation is characterized by a strong disproportion between the number of representatives of each class (i.e. class skew) and also by  ..."""
+309,"
+                  Realistic Modeling of Strongly Correlated Electron Systems: An Introduction to the LDA+DMFT
+                  ","""...  ..."""
+310,"
+                  KB-LDA: Jointly Learning a Knowledge Base of Hierarchy, Relations, and Facts
+                  ","""... Many existing knowledge bases (KBs), in-cluding Freebase, Yago, and NELL, rely on a fixed ontology, given as an input to the system, which defines the data to be cataloged in the KB, i.e., a hierar-chy of categories and relations between them. The system then extracts facts that match the predefined ..."""
+311,"
+                  EXMARaLDA and the FOLK tools – two toolsets for transcribing and annotating
+                  ","""... spoken language ..."""
+312,"
+                  A bound on the performance of LDA in randomly projected data spaces
+                  ","""... We consider the problem of classification in nonadaptive dimensionality reduction. Specifically, we bound the increase in classification error of Fisher’s Linear Discriminant classifier resulting from randomly projecting the high dimensional data into a lower dimensional space and both learning the  ..."""
+313,"
+                  1 » KEY WORDS fCMtlniM on WWtM »lda tin*
+                  ","""... An experimental study of nucleate pool boiling heat transfer from a Gewa-T finned surface in Freon-113 ..."""
+314,"
+                  Detailed Evaluation of CFD Predictions against LDA measurements for flow on an aerofoil
+                  ","""... The current work is the validation of the Glasgow flow solver PMB for static and moving aerofoils against data measured at LABM. The treatment of turbulence and transition is considered. Measurements made at LABM using an Embedded Laser Doppler Velocimetry (ELDV technique) provide detailed boundary  ..."""
+315,"
+                  Self-Energy corrections to DFT-LDA Gaps of Realistic Carbon Nanotubes
+                  ","""... The component part is provided here to allow users access to individually authored sections f proceedings, annals, symposia, etc. However, the component should be considered within [he context of the overall compilation report and not as a stand-alone technical report. The following component part n ..."""
+316,"
+                  Artery/Vein Discrimination Using Graph Based Approach and LDA Classifier
+                  ","""...  ABSTRACT: Analyzing the retinal blood vessels can provide very helpful information to doctors for early detection of diseases Such as diabetic retinopathy due to large number of patients. For this generalized arteriolar narrowing, which is inversely related to higher blood pressure levels is usuall ..."""
+317,"
+                  Can Word Probabilities from LDA be Simply Added up to Represent Documents?
+                  ","""...  ABSTRACT This paper provides an alternative way of document representation by treating topic probabilities as a vector representation for words and representing a document as a combination of the word vectors. A comparison on summary data shows that this representation is more effective in document ..."""
+318,"
+                  COMPLEX*16 A(0:LDA-1,0:∗) INTEGER
+                  ","""... Note: Before using this routine, please read the Users ’ Note for your implementation to check for implementation-dependent details. You are advised to enclose any calls to NAG Parallel Library routines between calls to Z01AAFP and Z01ABFP. 1 Description F02FRFP computes the eigenvalues and eigenvec ..."""
+319,"
+                  DOUBLE PRECISION A(0:LDA-1,0:∗) INTEGER
+                  ","""... Note: Before using this routine, please read the Users ’ Note for your implementation to check for implementation-dependent details. You are advised to enclose any calls to NAG Parallel Library routines between calls to Z01AAFP and Z01ABFP. 1 Description F02FQFP computes the eigenvalues and eigenvec ..."""
+320,"
+                  complex*16 C(*), A(LDA,*) CHARACTER*1 SIDE
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F06TVF transforms a complex upper triangular matrix to an upper Hessenberg matrix by applying a given seque ..."""
+321,"
+                  double precision A(LDA,*), SCALE(N) CHARACTER*1
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F08NHF (DGEBAL) balances a real general matrix in order to improve the accuracy of computed eigenvalues and ..."""
+322,"
+                  An Efficient Illumination Normalization Method with Fuzzy LDA Feature Extractor for Face Recognition
+                  ","""... The most significant practical challenge for face recognition is perhaps variability in lighting intensity. In this paper, we developed a face recognition which is insensitive to large variation in illumination. Normalization including two steps, first we used Histogram truncation as a preprocessing ..."""
+323,"
+                  Class-dependent PCA, MDC and LDA:A combined classifier
+                  ","""... for pattern classification ..."""
+324,"
+                  double precision A(LDA,*), TAUA(*), B(LDB,*), TAUB(*), WORK(*)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F08ZFF (DGGRQF) computes a generalized RQ factorization of a real matrix pair ðA; BÞ, where A is an m by n  ..."""
+325,"
+                  complex*16 A(LDA,*), B(LDB,*) CHARACTER*1
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F08SSF (ZHEGST) reduces a complex Hermitian-definite generalized eigenproblem Az  Bz, ABz  z or BAz  z to t ..."""
+326,"
+                  double precision A(LDA,*), TAUA(*), B(LDB,*), TAUB(*), WORK(*)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F08ZEF (DGGQRF) computes a generalized QR factorization of a real matrix pair ðA; BÞ, where A is an n by m  ..."""
+327,"
+                  REAL (KIND=nag_wp) A(LDA,*), B(LDB,*)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F07AAF (DGESV) computes the solution to a real system of linear equations AX  B, where A is an n by n matri ..."""
+328,"
+                  complex*16 A(LDA,*), B(LDB,*), C(LDC,*)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. ..."""
+329,"
+                  complex*16 A(LDA,*), TAU(*), C(LDC,*), WORK(*)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F08BXF (ZUNMRZ) multiplies a general complex m by n matrix C by the complex unitary matrix Z from an RZ fac ..."""
+330,"
+                  double precision A(LDA,*), B(LDB,*), ALPHA(*), BETA(*), U(LDU,*),
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F08VAF (DGGSVD) computes the generalized singular value decomposition (GSVD) of an m by n real matrix A and ..."""
+331,"
+                  REAL (KIND=nag_wp) A(LDA,*), SCALE(N)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F08NHF (DGEBAL) balances a real general matrix in order to improve the accuracy of computed eigenvalues and ..."""
+332,"
+                  REAL (KIND=nag_wp) A(LDA,*), B(LDB,*)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F07FEF (DPOTRS) solves a real symmetric positive definite system of linear equations with multiple right-ha ..."""
+333,"
+                  COMPLEX (KIND=nag_wp) A(LDA,*), B(LDB,*)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F07ASF (ZGETRS) solves a complex system of linear equations with multiple right-hand sides, AX  B, A T X  B ..."""
+334,"
+                  COMPLEX (KIND=nag_wp) A(LDA,*), B(LDB,*)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F07ANF (ZGESV) computes the solution to a complex system of linear equations AX  B, where A is an n by n ma ..."""
+335,"
+                  COMPLEX (KIND=nag_wp) A(LDA,*), B(LDB,*)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F07FSF (ZPOTRS) solves a complex Hermitian positive definite system of linear equations with multiple right ..."""
+336,"
+                  SUBROUTINE F01FCF (N, A, LDA, IFAIL) INTEGER
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. ..."""
+337,"
+                  complex*16 A(LDA,*), W(*), VL(LDVL,*), VR(LDVR,*),
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F08NNF (ZGEEV) computes the eigenvalues and, optionally, the left and/or right eigenvectors for an n by n c ..."""
+338,"
+                  complex*16 A(LDA,*), TAU(*), WORK(max(1,LWORK))
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F08BVF (ZTZRZF) reduces the m by n (m form by means of unitary transformations. n) complex upper trapezoida ..."""
+339,"
+                  complex*16 A(LDA,*), B(LDB,*), WORK(LWORK)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F02HDF computes all the eigenvalues, and optionally all the eigenvectors, of a complex Hermitian-definite g ..."""
+340,"
+                  double precision A(LDA,*), B(LDB,*), D(*), X(*), Y(*),
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F04JLF solves a real general Gauss–Markov linear (least-squares) model problem. ..."""
+341,"
+                  complex*16 CHARACTER*1 A(LDA,*), B(LDB,*)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F08SSF (ZHEGST) reduces a complex Hermitian-definite generalized eigenproblem Az  Bz, ABz  z or BAz  z to t ..."""
+342,"
+                  Nd2−xCexCuO4: LDA+GTB approach
+                  ","""... of many-body effects over one-electron mechanism for band structure doping dependence in ..."""
+343,"
+                  COMPLEX*16 A(0:LDA-1,0:∗) INTEGER
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check for implementation-dependent details. You are advised to enclose any calls to NAG Parallel Library routines between calls to Z01AAFP and Z01ABFP. 1 Description F02FRFP computes the eigenvalues and eigenvec ..."""
+344,"
+                  DOUBLE PRECISION A(0:LDA-1,0:∗) INTEGER
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check for implementation-dependent details. You are advised to enclose any calls to NAG Parallel Library routines between calls to Z01AAFP and Z01ABFP. 1 Description F02FQFP computes the eigenvalues and eigenvec ..."""
+345,"
+                  DOUBLE PRECISION A(LDA,*), B(LDB,*), WORK(*) INTEGER
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check for implementation-dependent details. You are advised to enclose any calls to NAG Parallel Library routines between calls to Z01AAFP and Z01ABFP. 1 Description F01WPFP distributes an m by n real matrix B a ..."""
+346,"
+                  X-ray absorption branching ratio in actinides: LDA+DMFT approach
+                  ","""... The article was downloaded on 24/06/2010 at 05:59 Please note that terms and conditions apply. View the table of contents for this issue, or go to the journal homepage for more ..."""
+347,"
+                  Beyond LDA: Exploring Supervised Topic Modeling for Depression-Related Language in Twitter
+                  ","""... Topic models can yield insight into how de-pressed and non-depressed individuals use language differently. In this paper, we explore the use of supervised topic models in the anal-ysis of linguistic signal for detecting depres-sion, providing promising results using several models. 1 ..."""
+348,"
+                  Assessment (LDA) or Education Health Care Plan (EHCP)..................................................... 3
+                  ","""...  ..."""
+349,"
+                  jLDADMM: A Java package for the LDA and DMM topic models
+                  ","""... Abstract. The Java package jLDADMM is released to provide alternatives for topic modeling on normal or short texts. It provides implementations of the Latent Dirichlet Allocation topic model and the one-topic-per-document Dirichlet Multinomial Mixture model (i.e. mixture of unigrams), using collapse ..."""
+350,"
+                  Graph-Sparse LDA: A Topic Model with Structured Sparsity
+                  ","""... ar ..."""
+351,"
+                  Representations of the occupation number matrix on the LDA/GGA + U method
+                  ","""... An analysis of the general representation of the occupation number matrix on density functional theory in conjunction with the generalized Hubbard model is presented. A central fact that will be addressed is that the total charge density cannot be broken down into simple atomic contributions. This f ..."""
+352,"
+                  Acronyms ERDF European Regional Development Fund LDA Local Development Approach
+                  ","""... Quotation is authorised as long as the source is acknowledged. The text is not binding for the ..."""
+353,"
+                  Understanding MOOC Discussion Forums using Seeded LDA Anonymous authors
+                  ","""... Discussion forums serve as a platform for student discussions in massive open online courses (MOOCs). Analyzing content in these forums can uncover useful informa-tion for improving student retention and help in initiating instructor intervention. In this work, we explore the use of topic models, pa ..."""
+354,"
+                  Using a Bayesian Model to Combine LDA Features with Crowdsourced Responses
+                  ","""... This paper describes a crowdsourcing system that integrates machine learning techniques with hu-man classifiers, showing how to apply a Bayesian approach to classifier combination to the challenge of crowdsourcing document topic labels. First, we use a number of NLP techniques to extract informative ..."""
+355,"
+                  WEIGHTED LDA TECHNIQUES FOR I-VECTOR BASED SPEAKER VERIFICATION
+                  ","""... This is the author’s version of a work that was submitted/accepted for pub-lication in the following source: ..."""
+356,"
+                  You Too?! Mixed-initiative LDA story matching to help teens in distress
+                  ","""... Adolescent cyber-bullying on social networks is a phenomenon that has received widespread attention. Recent work by sociologists has examined this phenomenon under the larger context of teenage drama and it&aposs manifestations on social networks. Tackling cyber-bullying involves two key components ..."""
+357,"
+                  1 LDaC: A Wideband Loran Data Acquisition System
+                  ","""... Loran-C provides timing and positioning services which are suitable for GPS backup in the National Airspace System (NAS). To assess the system’s ability to provide the necessary accuracy, integrity, availability and continuity, a variety of analyses and measurement tasks are underway. These tests ha ..."""
+358,"
+                  9 PIV as a Complement to LDA in the Study of an Unsteady Oscillating Turbulent Flow
+                  ","""... In the last decade, particle image velocimetry (PIV) has become a standard laser diagnostic tool in numerous fluid mechanics laboratories worldwide. At first glance, it appears straight-forward to set up an off-the-shelf system for a quick investigation of the flow of interest. However, unless addit ..."""
+359,"
+                  Review of Image Classification Techniques Based on LDA, PCA and Genetic Algorithm
+                  ","""... Image classification is play an important role in security surveillance in current scenario of huge Amount of image data base. Due to rapid change of feature content of image are major issues in classification. The image classification is improved by various authors using different model of classifi ..."""
+360,"
+                  Parameter estimation for text analysis
+                  ","""... Abstract. Presents parameter estimation methods common with discrete probability distributions, which is of particular interest in text modeling. Starting with maximum likelihood, a posteriori and Bayesian estimation, central concepts like conjugate distributions and Bayesian networks are reviewed.  ..."""
+361,"
+                  1D-LDA versus 2D-LDA: When Is Vector-based Linear Discriminant Analysis Better than Matrix-based?
+                  ","""... Information ..."""
+362,"
+                  Fast collapsed Gibbs sampling for latent Dirichlet allocation
+                  ","""... In this paper we introduce a novel collapsed Gibbs sampling method for the widely used latent Dirichlet allocation (LDA) model. Our new method results in significant speedups on real world text corpora. Conventional Gibbs sampling schemes for LDA require O(K) operations per sample where K is the num ..."""
+363,"
+                  Multiclass Linear Dimension Reduction by Weighted Pairwise Fisher Criteria
+                  ","""... We derive a class of computationally inexpensive linear dimension  reduction criteria by introducing a weighted variant of the well-known K-class  Fisher criterion associated with linear discriminant analysis (LDA). It can be seen that LDA weights contributions of individual class pairs according to ..."""
+364,"
+                  Efficient and Robust Feature Extraction by Maximum Margin Criterion
+                  ","""... In pattern recognition, feature extraction techniques are widely employed to reduce the dimensionality of data and to enhance the discriminatory information. Principal Component Analysis (PCA) and Linear Discriminant Analysis (LDA) are two most popular linear dimen-sionality reduction methods. Howev ..."""
+365,"
+                   Unsupervised Activity Perception in Crowded and Complicated Scenes Using Hierarchical Bayesian Models
+                  ","""... We propose a novel unsupervised learning framework to model activities and interactions in crowded and complicated scenes. Under our framework hierarchical Bayesian models are used to connect three elements in visual surveillance: low-level visual features, simple “atomic ” activities, and interacti ..."""
+366,"
+                  Modeling Online Reviews with Multi-grain Topic Models  
+                  ","""... In this paper we present a novel framework for extracting the ratable aspects of objects from online user reviews. Extracting such aspects is an important challenge in automatically mining product opinions from the web and in generating opinion-based summaries of user reviews [18, 19, 7, 12, 27, 36, ..."""
+367,"
+                   Joint Latent Topic Models for Text and Citations
+                  ","""... In this work, we address the problem of joint modeling of text and citations in the topic modeling framework. We present two different models called the Pairwise-Link-LDA and the Link-LDA-PLSA models. The Pairwise-Link-LDA model combines the ideas of LDA [4] and Mixed Membership Block Stochastic Mod ..."""
+368,"
+                  Leeuwen, “Source-normalised-and-weighted LDA for robust speaker recognition using i-vectors
+                  ","""... The recently developed i-vector framework for speaker recognition has set a new performance standard in the research field. An i-vector is a compact representation of a speaker utterance extracted from a low-dimensional total variability subspace. Prior to classification using a cosine kernel, i-vec ..."""
+369,"
+                  Discriminative Learning and Recognition of Image Set Classes Using Canonical Correlations
+                  ","""... Abstract—We address the problem of comparing sets of images for object recognition, where the sets may represent variations in an object’s appearance due to changing camera pose and lighting conditions. Canonical Correlations (also known as principal or canonical angles), which can be thought of as  ..."""
+370,"
+                  Mr. LDA: A Flexible Large Scale Topic Modeling Package using Variational Inference in MapReduce
+                  ","""... Latent Dirichlet Allocation (LDA) is a popular topic modeling technique for exploring document collections. Because of the increasing prevalence of large datasets, there is a need to improve the scalability of inference for LDA. In this paper, we introduce a novel and flexible large scale topic mode ..."""
+371,"
+                  Helvie M: Classification of malignant and benign masses based on hybrid ART2LDA approach
+                  ","""... Abstract—A new type of classifier combining an unsupervised and a supervised model was designed and applied to classification of malignant and benign masses on mammograms. The unsupervised model was based on an adaptive resonance theory (ART2) network which clustered the masses into a number of sepa ..."""
+372,"
+                  General tensor discriminant analysis and Gabor featuresforgaitrecognition,”IEEE Trans
+                  ","""... Abstract — The traditional image representations are not suited to conventional classification methods, such as the linear discriminant analysis (LDA), because of the under sample problem (USP): the dimensionality of the feature space is much higher than the number of training samples. Motivated by  ..."""
+373,"
+                  The transcription system EXMARaLDA: an application of the annotation graph formalism as the basis of a database of multilingual spoken discourse
+                  ","""... This paper describes EXMARaLDA, a system for computer transcription of spoken discourse developed and used by the SFB ""Mehrsprachigkeit "" at the university of Hamburg. EXMARaLDA consists of several DTDs for XML coding of transcription data and some input and output tools for these formats. ..."""
+374,"
+                  Developmental stage annotation of drosophila gene expression pattern images via an entire solution path for LDA
+","""... Gene expression in a developing embryo occurs in particular cells (spatial patterns) in a timespecific manner (temporal patterns), which leads to the differentiation of cell fates. Images of a Drosophila melanogaster embryo at a given developmental stage, showing a particular gene expression pattern ..."""
+375,"
+                  DOI: 10.3745/JIPS.2009.5.1.005 SVD-LDA: A Combined Model for Text Classification 5 SVD-LDA: A Combined Model for Text Classification
+                  ","""... Abstract: Text data has always accounted for a major portion of the world’s information. As the volume of information increases exponentially, the portion of text data also increases significantly. Text classification is therefore still an important area of research. LDA is an updated, probabilistic ..."""
+376,"
+                  Comparison of PIV and LDA Measurement Methods Applied to the Gas-Liquid Flow in a Bubble Column
+                  ","""... In this work a comparison of multiphase PIV and LDA measurement methods is made. The objective of the work is twofold: to provide measurement results that can be used to validate multiphase CFD simulations and to assess the different acquisition and analysis methods in multiphase measurements. The f ..."""
+377,"
+                  GA-fisher: A new LDA-based face recognition algorithm with selection of principal components
+                  ","""... Abstract—This paper addresses the dimension reduction problem in Fisherface for face recognition. When the number of training samples is less than the image dimension (total number of pixels), the within-class scatter matrix (Sw) in Linear Discriminant Analysis (LDA) is singular, and Principal Compo ..."""
+378,"
+                  Using a generalized linear mixed model to study the configuration space of a pca+lda human face recognition algorithm
+                  ","""... A generalized linear mixed model is used to estimate how rank 1 recognition of human faces with a PCA+LDA algorithm is affected by the choice of distance metric, image size, PCA space dimensionality, supplemental training and inclusion of subjects in the training. Random effects for replicated train ..."""
+379,"
+                  A Bayes optimal matrix-variate LDA for extraction of spatio-spectral features from EEG signals
+                  ","""... Abstract — Classification of mental states from electroen-cephalogram (EEG) signals is used for many applications in areas such as brain-computer interfacing (BCI). When represented in the frequency domain, the multichannel EEG signal can be considered as a two-directional spatio-spectral data of hi ..."""
+380,"
+                  Finding complex biological relationships in recent PubMed articles using Bio-LDA
+","""... The overwhelming amount of available scholarly literature in the life sciences poses significant challenges to scientists wishing to keep up with important developments related to their research, but also provides a useful resource for the discovery of recent information concerning genes, diseases,  ..."""
+381,"
+                  Rethinking collapsed variational Bayes inference for LDA. arXiv preprint arXiv:1206.6435
+                  ","""... We propose a novel interpretation of the collapsed variational Bayes inference with a zero-order Taylor expansion approximation, called CVB0 inference, for latent Dirich-let allocation (LDA). We clarify the proper-ties of the CVB0 inference by using the α-divergence. We show that the CVB0 infer-ence ..."""
+382,"
+                  D (2011) An Enhanced Probabilistic LDA for MultiClass Brain Computer Interface. PLoS One 6: e14634
+                  ","""... Background: There is a growing interest in the study of signal processing and machine learning methods, which may make the brain computer interface (BCI) a new communication channel. A variety of classification methods have been utilized to convert the brain information into control commands. Howeve ..."""
+383,"
+                  Demirel, ""PCA an LDA based face recognition using feedforward neural network classifier
+                  ","""... Abstract. Principal component analysis (PCA) and Linear Discriminant Analy-sis (LDA) techniques are among the most common feature extraction tech-niques used for the recognition of faces. In this paper, two face recognition systems, one based on the PCA followed by a feedforward neural network (FFNN ..."""
+384,"
+                  A Comparison of PCA, KPCA and LDA for Feature Extraction to Recognize Affect in Gait Kinematics
+                  ","""... This study investigates recognition of affect in human walking as daily motion, in order to provide a means for affect recognition at distance. For this purpose, a data base of affective gait patterns from non-professional actors has been recorded with optical motion tracking. Principal Component An ..."""
+385,"
+                  Nonlinear Discriminant Analysis using Kernel Functions
+                  ","""... Fishers linear discriminant analysis (LDA) is a classical multivariate technique both for dimension reduction and classication. The data vectors are transformed into a low dimensional subspace such that the class centroids are spread out as much as possible. In this subspace LDA works as a simple pr ..."""
+386,"
+                  Distributed algorithms for topic models
+                  ","""... We describe distributed algorithms for two widely-used topic models, namely the Latent Dirichlet Allocation (LDA) model, and the Hierarchical Dirichet Process (HDP) model. In our distributed algorithms the data is partitioned across separate processors and inference is done in a parallel, distribute ..."""
+387,"
+                  It Is Not Just What We Say, But How We Say Them: LDA-based Behavior-Topic Model
+                  ","""... Textual information exchanged among users on online social network platforms provides deep understanding into user-s ’ interest and behavioral patterns. However, unlike tradi-tional text-dominant settings such as offline publishing, one distinct feature for online social network is users ’ rich inte ..."""
+388,"
+                  The Loss-Delay Based Adjustment Algorithm: A TCP-Friendly Adaptation Scheme
+                  ","""... Many distributed multimedia applications have the ability to adapt to fluctuations in the network conditions. By adjusting temporal and spatial quality to available bandwidth, or manipulating the playout time of continuous media in response to variations in delay, multimedia flows can keep an accept ..."""
+389,"
+                  M.: Biologically-aware Latent Dirichlet Allocation (BaLDA) for the Classification of Expression Microarray
+                  ","""... Abstract. Topic models have recently shown to be really useful tools for the analysis of microarray experiments. In particular they have been successfully applied to gene clustering and, very recently, also to samples classification. In this latter case, nevertheless, the basic assumption of functio ..."""
+390,"
+                  Statistics in Face Recognition: Analyzing Probability Distributions of PCA, ICA and LDA Performance Results
+                  ","""... In this paper we address the issue of evaluating face recognition algorithms using descriptive statistical tools. By using permutation methodology in a Monte Carlo sampling procedure, we investigate recognition rate results probability distributions of some wellknown algorithms (namely, PCA, ICA and ..."""
+391,"
+                  Development and integration of the LDA-toolkit into the COST249 speechdat (II) SIG reference recognizer
+                  ","""... This paper presents the development of Linear Discriminant Analysis toolkit (LDA-Toolkit) and its integration into widely used COST249 SpeechDat(II) Task Force Reference Recognizer (RefRec). The crucial parts of the LDA, the determination of LDA classes, as well as the influence of the level of dime ..."""
+392,"
+                  Comparison of LDA and PCA for Korean Pro Go Player&aposs Opening Recognition
+                  ","""... The game of Go, which is originated at least more than 2,500 years ago, is one of the oldest board games in the world. So far the theoretical studies concerning to the Go openings are still insufficient. We applied traditional LDA algorithm to recognize a pro player&aposs opening to a class obtaine ..."""
+393,"
+                  Research Article Enhanced Z-LDA for Small Sample Size Training in Brain-Computer Interface Systems
+                  ","""... which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. Background. Usually the training set of online brain-computer interface (BCI) experiment is small. For the small training set, it lacks enough information to deeply train the c ..."""
+394,"
+                  On Using a Pre-clustering Technique to Optimize LDA-Based Classifiers for Appearance-Based Face Recognition ⋆
+                  ","""... Abstract. Fisher’s Linear Discriminant Analysis (LDA) is a traditional dimensionality reduction method that has been proven to be successful for decades. To enhance the LDA’s power for high-dimensional pattern classification, such as face recognition, numerous LDA-extension approaches have been prop ..."""
+395,"
+                  A Unified Framework for Subspace Face Recognition
+                  ","""... Abstract—PCA, LDA, and Bayesian analysis are the three most representative subspace face recognition approaches. In this paper, we show that they can be unified under the same framework. We first model face difference with three components: intrinsic difference, transformation difference, and noise. ..."""
+396,"
+                  MANUSCRIPT, SUBMITTED TO IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE 1 Uncertain LDA: Including observation uncertainties in discriminative transforms
+                  ","""... Abstract—Linear discriminant analysis (LDA) is a powerful technique in pattern recognition to reduce the dimensionality of data vectors. It max-imizes discriminability by retaining only those directions that minimize the ratio of within-class and between-class variance. In this paper, using the same ..."""
+397,"
+                  Hemi-Labile Ligands in Organolithium Chemistry: Rate Studies of the LDA-Mediated R-and -Metalations of Epoxides
+                  ","""...  Abstract: Lithium diisopropylamide (LDA)-mediated R-and -eliminations of epoxides are described. A comparison between LDA/n-BuOMe mixtures and LDA/MeOCH 2 CH 2 NMe 2 (LDA/3) mixtures reveals that the LDA dimer solvated by the ""hemi-labile"" amino ether 3 imparts dramatic rate accelerations ..."""
+398,"
+                  Regularized lda based on separable scatter matrices for classification of spatio-spectral EEG patterns
+                  ","""... Linear discriminant analysis (LDA) is a commonly-used fea-ture extraction technique. For matrix-variate data such as spatio-spectral electroencephalogram (EEG), matrix-variate LDA formulations have been proposed. Compared to the standard vector-variate LDA, these formulations assume a separable stru ..."""
+399,"
+                  A new nonlinear discriminant analysis algorithm using a combined version of LDA and LLE
+                  ","""... Abstract — Linear discriminant analysis (LDA) is a simple but widely used algorithm in pattern recognition. However it has some shortcomings in that it is sensitive to outliers and limited to linearly separable cases. To solve this problem a new version of nonlinear discriminant algorithm is propose ..."""
+400,"
+                  Face Recognition using Radial Basis Function Network based on LDA Byung-Joo Oh
+                  ","""... Abstract—This paper describes a method to improve the robustness of a face recognition system based on the combination of two compensating classifiers. The face images are preprocessed by the appearance-based statistical approaches such as Principal Component Analysis (PCA) and Linear Discriminant A ..."""
+401,"
+                  A probabilistic interpretation of canonical correlation analysis
+                  ","""... We give a probabilistic interpretation of canonical correlation (CCA) analysis as a latent variable model for two Gaussian random vectors. Our interpretation is similar to the probabilistic interpretation of principal component analysis (Tipping and Bishop, 1999, Roweis, 1998). In addition, we can i ..."""
+402,"
+LDA and PIV Measurements and Numerical Simulation on In-Cylinder Flow Under Steady State Flow Condition
+                  ","""... In the area of the internal combustion engine designing, it is important to control the airflow in engine cylinder and necessary to understand the airflow and combustion by measurements and numerical simulations in order to reduce the exhaust emissions and improve the efficiency. In this report, cha ..."""
+403,"
+                  The copy right of this paper is reserved to its society or publisher FACE DESCRIPTION BASED ON DECOMPOSITION AND COMBINING OF A FACIAL SPACE WITH LDA
+","""... We propose a method of efficient face description for facial image retrieval from a large data set. The novel descriptor is obtained by decomposing the face image into several components and then combining the component features. The decomposition combined with LDA (Linear Discriminant Analysis) pro ..."""
+404,"
+                  LightLDA: Big topic models on modest compute clusters. page arXiv:1412.1576 [stat.ML
+                  ","""... When building large-scale machine learning (ML) programs, such as massive topic models or deep neural networks with up to trillions of parameters and training examples, one usually assumes that such massive tasks can only be attempted with industrial-sized clusters with thousands of nodes, which are ..."""
+405,"
+                  A Wikipedia-LDA Model for Entity Linking with Batch Size Changing Instance Selection
+                  ","""... Entity linking maps name mentions in context to entries in a knowledge base through resolving the name variations and ambiguities. In this paper, we propose two advancements for entity linking. First, a Wikipedia-LDA method is proposed to model the contexts as the probability distributions over Wiki ..."""
+406,"
+                  doi:10.1155/2010/647597 Research Article Fusion of PCA-Based and LDA-Based Similarity Measures for Face Verification
+                  ","""... Copyright © 2010 Mohammad T. Sadeghi et al. This is an open access article distributed under the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. The problem of fusing similarity measure- ..."""
+407,"
+                  End-to-end Learning of LDA by Mirror-Descent Back Propagation over a Deep Architecture
+                  ","""... We develop a fully discriminative learning approach for supervised Latent Dirich-let Allocation (LDA) model using Back Propagation (i.e., BP-sLDA), which max-imizes the posterior probability of the prediction variable given the input doc-ument. Different from traditional variational learning or Gibb ..."""
+408,"
+                  A New Method for Classification of Chinese Herbal Medicines Based on Local Tangent Space Alignment and LDA
+","""... Abstract—Controlling the quality of Chinese herbal medicines (CHMs) is a challenging issue due to the complex and diverge specification of components in herbs. The main purpose of this study is to develop an algorithm for species identification of CHMs. An electronic nose (E-nose) was employed to co ..."""
+409,"
+                  A Novel Approach for Predicting the Probability of Inconsistent Changes to Code Clones Based LDA
+","""... Abstract- Inconsistent changes to code clones can create faults and, hence, lead to incorrect program behavior. Consequently, these clones increase the change effort when software is maintained. In order to improve software quality and to help programmers pre attention the hidden trouble of clone in ..."""
+410,"
+                  Available online at: www.ijarcsse.com Spam Detection using G-LDA
+","""... Abstract — Spam is any unwanted message, especially advertisement and fraud schemes. The average cost of spam per employee per year at 82 of the Fortune 500 companies is estimated to be $1934. The paper proposes a novel process called G-LDA, which takes concepts from Latent Dirichlet Allocation (LDA ..."""
+411,"
+                  Improved Recognition Performance with LDA and ICA Using Vertically and Horizontally Partitioned Facial Images
+                  ","""... Abstract: A comparative recognition performance of LDA- and ICA-based multiple classifier systems for face recognition is presented using vertically and horizontally partitioned facial images. A face image is partitioned into several vertical and horizontal segments and a multiple classifier based d ..."""
+412,"
+                  Analysis on Flow Around a Rectangular Cube by Means of LDA, PIV and the Numerical Simulation by PCC Method
+                  ","""... Analysis on flow around a rectangular cube set on the floor in a rectangular channel is described. The study is carried out using two-dimensional laser Doppler anemometry (2D-LDA) with fiber optics, Particle Image Velocimetry (PIV) and numerical simulation by PCC (Partial Cells in Cartesian coordina ..."""
+413,"
+                  The LDA+U Effect on the Electronic Structure and Magnetism of Bulk, Monolayer, and Linear Chain of Iron
+                  ","""... We examine the effect of U term (U = 3 eV) describing the Coulomb interactions between electrons on the results of electronic band structure calculations carried out for bcc Fe bulk, monolayer, and chain. We investi-gated the properties of the three Fe structures by using the all-electron total-ener ..."""
+414,"
+                  PCA plus LDA on Wavelet Co-occurrence Histogram Features for Texture Classification and its Applications
+                  ","""... In this paper, we propose a combined approach, namely, PCA plus LDA on Wavelet Co-occurrence Histogram Features (WCHF) for texture classification. The texture features are extracted using the Wavelet Co-occurrence Histogram (WCH) from wavelet decomposed images, which capture the information about re ..."""
+415,"
+                  An Improved NN Training Scheme Using Two-Stage LDA Features for Face Recognition
+                  ","""... Abstract. This paper presents a new approach based on a Two-Stage Linear Discriminant Analysis (Two-Stage LDA) and Conjugate Gradient Algorithms (CGAs) for face recognition. A Two-Stage LDA technique is proposed that utilises the null space of the sample covariance matrix as well as using the range  ..."""
+416,"
+                  FACIAL EMOTION RECOGNITION BASED ON TWO-DIMENSIONAL EMPIRICAL MODE DECOMPOSITION AND PCA PLUS LDA
+","""...  ABSTRACT This paper proposes a new approach of using nonlinear technique, two-dimensional empirical mode decomposition (2DEMD) and PCA plus LDA for facial emotion recognition. The EMD is a non-parametric data-driven analysis tools which decomposes any nonlinear and non-stationary signals into a num ..."""
+417,"
+                  A comparative study of DFT/LDA with higher levels of theory on π-π interactions: A typical case for the benzene dimer
+                  ","""...  Abstract The description of the interactions involving species that have π-π configuration presents a real challenge in utilizing theoretical calculations. The problem arises from the kind of theoretical approaches employed to describe the nature of these non-covalent interactions. Various workers  ..."""
+418,"
+                  Implementation of the Projector Augmented Wave LDA+U Method: Application to the Electronic Structure of NiO
+                  ","""... The so-called local density approximation plus the multi-orbital mean-field Hubbard model (LDA+U) has been implemented within the all-electron projector augmented-wave method (PAW), and then used to compute the insulating antiferromagnetic ground state of NiO and its optical properties. The electron ..."""
+419,"
+                  Licensed Under Creative Commons Attribution CC BY GAIT Recognition using PAL and PAL entropy with LDA and MDA
+                  ","""... Abstract: Gait recognition is one kind of biometric technology that can be used to monitor people without their cooperation. The Gait shows a particular way or manner of moving on foot and gait recognition is the process of identifying an individual by the manner of walk. And Gait is less unobtrusiv ..."""
+420,"
+                  A New Face Recognition Framework: Symmetrical Bilateral 2DPLS plus LDA
+","""... Abstract—A novel face recognition framework is proposed in this paper to alleviate ""Small Sample Size "" (SSS) problem of the conventional Linear Discriminant Analysis (LDA). This method is based on the feature extraction of global odd and even face image representation, and a dimension red ..."""
+421,"
+                  Abstract Component-based LDA face description for image retrieval and MPEG-7 standardisation
+                  ","""... We propose a method of face description for facial image retrieval from a large data base and for MPEG-7 (Moving Picture Experts Group) standardisation. The novel descriptor is obtained by decomposing a face image into several components and then combining the component features. The decomposition c ..."""
+422,"
+                  Principle Component Analysis (PCA) and Linear Discriminant Analysis (LDA) based Face Recognition
+                  ","""... This paper presents study of face recognition system which is based on Principal Component Analysis (PCA) and Linear Discriminant Analysis (LDA) [1], [2]. These methods are used for feature extrac-tion and dimension reduction. Nearest Neighbour Classifier (NNC) is used for classification. For matchi ..."""
+423,"
+                  First-principles LDA+U and GGA+U study of cerium oxides: Dependence on the effective U parameter
+                  ","""... The electronic structure and properties of cerium oxides CeO2 and Ce2O3  have been studied in the framework of the LDA+U and GGAPW91+U implementations of density functional theory. The depen-dence of selected observables of these materials on the effective U parameter has been investigated in detail ..."""
+424,"
+                  1 Maximizing power to track Alzheimer&aposs disease and MCI progression by LDA-based
+                  ","""... journal homepage: www.elsevier.com/locate/ynimg ..."""
+425,"
+                    Recognizing Facial Expression: Machine Learning and Application to Spontaneous Behavior
+                  ","""... We present a systematic comparison of machine learning methods applied to the problem of fully automatic recognition of facial expressions. We report results on a series of experiments comparing recognition engines, including AdaBoost, support vector machines, linear discriminant analysis. We also e ..."""
+426,"
+                  Predicting Thyroid Disease using Linear Discriminant Analysis (LDA) Data Mining Technique
+                  ","""... Thyroid disease is very common disease in human. Nowadays most of the women suffering from thyroid disease than male. There are two types in thyroid disease like hypothyroid and hyperthyroid disease. These diseases giving many side effects such as weight gain, weight loss, stress and so on to our hu ..."""
+427,"
+                  Review on:- Human Identification using GAIT Recognition Technique with PAL and PAL entropy, SVM and k-means with LDA
+","""... Abstract:- Gait recognition is one kind of biometric technology that can be used to monitor people without their cooperation. The controlled environments such as banks; military installations and even airports need to be able to quickly detect threats and provide differing levels of access to differ ..."""
+428,"
+                  Human Identification using GAIT Recognition Technique with PAL and PAL entropy, SVM And k-means with LDA
+","""... Abstract:- Gait recognition is one kind of biometric technology that can be used to monitor people without their cooperation. The controlled environments such as banks; military installations and even airports need to be able to quickly detect threats and provide differing levels of access to differ ..."""
+429,"
+                  Article Protein Sub-Nuclear Localization Based on Effective Fusion Representations and Dimension Reduction Algorithm LDA
+","""... Abstract: An effective representation of a protein sequence plays a crucial role in protein sub-nuclear localization. The existing representations, such as dipeptide composition (DipC), pseudo-amino acid composition (PseAAC) and position specific scoring matrix (PSSM), are insufficient to represent  ..."""
+430,"
+                  Revised R-LDA based ANN for Small Sample Size (SSS) Problem of Face Recognition
+                  ","""... A face recognition (FR) system is automatically identifying or verifying a personal face acquired from a digital camera or a image generation device. In order to do this, facial features from the acquired image should be extracted and compared with a facial database. All FRs face an obstacle related ..."""
+431,"
+                  tion of the HDA and LDA S(Q) functions. Several combinations of the S(Q) of the HDA
+                  ","""... are the data from the sample annealed at 105 K. The annealed structures factors cannot be produced by any combination of LDA and HDA. We note the region in Fig. 1D where the x-ray curves intersect at 2.05 Å1, the peak is at 2.09 Å1 for the annealed sample, and there is only a small error in the data ..."""
+432,"
+                  tion of the HDA and LDA S(Q) functions. Several combinations of the S(Q) of the HDA
+                  ","""... are the data from the sample annealed at 105 K. The annealed structures factors cannot be produced by any combination of LDA and HDA. We note the region in Fig. 1D where the x-ray curves intersect at 2.05 Å1, the peak is at 2.09 Å1 for the annealed sample, and there is only a small error in the data ..."""
+433,"
+                  Combining Block-based PCA, Global PCA and LDA for Feature Extraction in Face Recognition 1
+                  ","""... This paper presents a novel methodology for pattern classification, combining different feature extraction approaches, more precisely, global PCA, block-based PCA and LDA in order to improve the face classification performance. Block-based PCA is a new technique that is being widely used for feature ..."""
+434,"
+                  The Corrected Normalized Correlation Coefficient: A Novel Way Of Matching Score Calculation for LDA-Based Face Verification ∗
+                  ","""... The paper presents a novel way of matching score calculation for LDA-based face verification. Different from the classical matching schemes, where the decision regarding the identity of the user currently presented to the face verification system is made based on the similarity (or distance) between ..."""
+435,"
+                  A Novel Identification Method of Two Phase Flow Based on LDA Feature Extraction
+                  ","""... Abstract—Two-phase flow measurement plays an increasingly important role in the real-time, on-line control of industrial processes including fault detection and system malfunction. The flow regime parameter is one of the most important parameters in measurements. This paper proposes a new identifica ..."""
+436,"
+                  PAPER ID: 101 Gabor-based Face Recognition Under Varying Pose and Expression Using PCA plus LDA
+","""... Abstrak – A pose and expression robust Gaborbased face recognition method is proposed in this paper. This involves convolving a face image with a series of Gabor wavelets at different scales, locations, and orientations. Linear Subspace methods such as Principal Component Analysis (PCA) and Linear D ..."""
+437,"
+                  Quantitative Modeling of Operational RiskBasel II LDA g-and-h Aggregation Conclusion and References
+                  ","""... - mainly CR- minimum risk capital (MRC)  ≥ 8 % of risk weighted assets (Cooke Ratio) • 1993 Birth of VaR- “G-30 Report ” addressing incorporation of off-balance sheet products (first time “VaR ” appears)- need for proper RM of these products P. Embrechts ETH Zurich Quantitative Modeling of Operation ..."""
+438,"
+                  2D Face Recognition System Based on Selected Gabor Filters and Linear Discriminant Analysis LDA
+","""... In this paper, we present a new approach for face recognition system. The method is based on 2D face image features using subset of non-correlated and Orthogonal Gabor Filters instead of using the whole Gabor Filter Bank, then compressing the output feature vector using Linear Discriminant Analysis  ..."""
+439,"
+                  Image Denoising using Neural Network with SVM (Support Vector Machine) and LDA (Linear Discriminant Analysis)
+                  ","""... Abstract — the medical figure technology is become a much powerful component for number of applications such as diagnosis; research; and treatment. Medical figure like X-Ray; CT; MRI; PET and SPECT have small information about heart brain and nerves. All of These figures need to be exact and free fr ..."""
+440,"
+                  Review On: An Efficient Technique of Noising and De-Noising Medical Images Using Neuro – FUZZY and LDA
+","""... Abstract — Medical imaging technology is becoming an important component of large number of applications such as diagnosis, research, and treatment. Medical images like X-Ray, CT, MRI, PET and SPECT have minute information about heart brain and nerves. These images need to be accurate and free from  ..."""
+441,"
+                  1LDA: An Experimental Whole Field Investigation on Confined Rotating Flow with and without Vortex Breakdown by
+                  ","""... Rich complicated flow problems present in rotating flow inside cylindrical container, secondary flows, vortex breakdown, to name a few. The experimental research on vortex breakdown in rotating flows has been limited to visualizations up to now, and there are few quantitative measurement results. Fo ..."""
+442,"
+                  Low Reynolds Numbers LDA-Experimental Analysis of the Near-Field of an Isothermal Laminar Round Free Jet
+                  ","""...  Abstract: Jet transition towards a turbulent state is an interesting topic requiring a detailed analysis of the process leading to the onset and amplification of small flow disturbances. Here we examine experimentally the transition process for an isothermal laminar round free jet at low values of  ..."""
+443,"
+                  3D Face Recognition based on Deformation Invariant Image using Symbolic LDA
+","""... Face recognition is one of the most important abilities that the humans possess. There are several reasons for the growing interest in automated face recognition, including rising concerns for public security, the need for identity verification for physical and logical access to shared resources, an ..."""
+444,"
+                  A Refinement: Better Classification of Images using LDA in Contrast with SURF and SVM for CBIR System
+                  ","""... Content Based Image Retrieval or CBIR is the image retrieval process which is based on visual features including color, texture and shape. Image databases that are large in size and traditional indexing of images have proven to be less sufficient, more laborious and extremely time consuming which le ..."""
+445,"
+                  A Hybrid Technique for Medical Image Denoising using NN, Bilateral filter and LDA
+","""... Abstract-Medical imaging technology is becoming an important component of large numbers of applications such as diagnosis, Treatment and research. Medical images like CT, X-Ray, MRI, PET and SPECT have minute information about heart, nerves and brain. These images need to be more accurate and free f ..."""
+446,"
+                  Improving 2D Boosted Classifiers Using Depth LDA Classifier for Robust Face Detection
+                  ","""... Face detection plays an important role in Human Robot Interaction. Many of services provided by robots depend on face detection. This paper presents a novel face detection algorithm which uses depth data to improve the efficiency of a boosted classifier on 2D data for reduction of false positive ala ..."""
+447,"
+                  1APPLICATION OF LDA AND PIV TECHNIQUES TO THE VALIDATION OF VECTIS USING BOUNDARY MESH MOTION
+                  ","""... Computational fluid dynamics (CFD) is being increasingly used to analyse gasoline direct injection (G-DI) combustion systems in the early stages of design and development. Consequently, it is important to ensure that the CFD codes are both fast and accurate. The objective of the work presented in th ..."""
+448,"
+                  Using LDA Method to Provide Mobile Location Estimation Services within a Cellular Radio Network
+                  ","""... Abstract — Mobile location estimation is becoming an important value-added service for a mobile phone operator. It is well-known that GPS can provide an accurate location estimation. But it is also a known fact that GPS does not perform well in urban areas like downtown New York and cities like Hong ..."""
+449,"
+                  1Appendix for Latent Dirichlet Allocation Models for Image Classification APPENDIX I VARIATIONAL INFERENCE IN LDA MODELS
+                  ","""... consists of computing the posterior distribution of the unob-served variables, P (pi, z1:N |I) 1. Learning involves estimating the parameters (α,Λ1:K), by maximizing the log likelihood, l = logP (D) of a training image dataset D. Inference and learning are not tractable under LDA. A wide range of ap ..."""
+450,"
+                  A latent dirichlet allocation method for selectional preferences
+                  ","""... The computation of selectional preferences, the admissible argument values for a relation, is a well-known NLP task with broad applicability. We present LDA-SP, which utilizes LinkLDA (Erosheva et al., 2004) to model selectional preferences. By simultaneously inferring latent topics and topic distri ..."""
+451,"
+                  Facial Face Recognition Method using Fourier Transform Filters Gabor and R_LDA
+","""... In this paper, we present a new approach for facial face recognition. The method is based on the Fourier transform of Gabor filters and the method of regularized linear discriminate analysis applied to facial features previously localized. The process of facial face recognition is based on two phase ..."""
+452,"
+                  Open Access An Improved Lda Model in Micro-Blog Tags Extracting Based on Multi- Tags
+                  ","""... Abstract: This article mainly discusses how to extract the interested information from massive amounts of micro-blogs and recommend right information to user, which is a hot research area in recommendation systems and social networks, too. To solve this problem, a model called Multi-tags Latent Diri ..."""
+453,"
+                  A New Face Recognition Framework: Symmetrical Bilateral 2DPLS plus LDA
+","""... All in-text	references	underlined	in	blue	are	linked	to	publications	on	ResearchGate, letting you	access	and	read	them	immediately. ..."""
+454,"
+LDA Measurements of Steady and Unsteady Flow Through the Induction System of a Heavy Duty Diesel Engine
+                  ","""... The appearance of the ISSN code at the bottom of this page indicates SAE&aposs consent that copies of the paper may be made for personal or internal use of specific clients. This consent is given on the condition, however, that the copier pay a $5.00 per article copy fee through the Copyright Clear ..."""
+455,"
+                  An LDA Study of the Backward- Facing Step FIow 3 Including the Effects of Velocity Bias
+                  ","""...  ..."""
+456,"
+LDA Measurements of lean Velocity and Reynolds Stress Fields Within an Artificial Heart Ventricle
+                  ","""...  ..."""
+457,"
+                  New Journal of Physics Electronic structure and band gap of zinc spinel oxides beyond LDA: ZnAl 2 O
+                  ","""...  Abstract. We examine the electronic structure of the family of ternary zinc spinel oxides ZnX 2 O 4 (X = Al, Ga and In). The band gap of ZnAl 2 O 4 calculated using density functional theory (DFT) is 4.25 eV and is overestimated compared with the experimental value of 3.8-3.9 eV. The DFT band gap o ..."""
+458,"
+                  Towards Automatic Requirements Elicitation from Feedback Comments: Extracting Requirements Topics Using LDA
+","""...  Abstract ..."""
+459,"
+                  © Science and Technology Publications, Lda (SciTePress) 2010. Modeling Sensor Knowledge of a National Hydrologic
+                  ","""... Abstract. In this paper we describe our experience in modeling and using sensor knowledge of a national hydrologic information system in Spain. We developed a web application called VSAIH supported by a knowledge-based system to analyze sensor data and to generate explanations that help users to mak ..."""
+460,"
+                  Applying LDA in contextual image retrieval ReDCAD participation at ImageCLEF Flickr Photo Retrieval 2012
+                  ","""... tn} ..."""
+461,"
+                  La1−xSrxTiO3 using LDA+DMFT(QMC)
+                  ","""... (will be inserted by the editor) ..."""
+462,"
+                  Content based Image Processing using Relevance Feedback with Null Space LDA (NLDA)
+                  ","""... The biggest problem in the research of Content Based Image Retrieval (CBIR) is bridge the gap between low-level features and high-level semantics., Still many shortcomings for image retrieval system only with the low level visual features due to the semantic space. It is better for the relevance fee ..."""
+463,"
+                  An LDA-smoothed Relevance Model for Document Expansion: A Case Study for Spoken Document Retrieval
+                  ","""... Document expansion (DE) in information retrieval (IR) involves modifying each document in the collection by introducing additional terms into the document. It is particularly useful to improve retrieval of short and noisy documents where the additional terms can improve the description of the docume ..."""
+464,"
+                  CONFIDENTIAL. Limited circulation. For review only. Characterizing user-subgroups in Flickr Group: A Block LDA based
+                  ","""... approach ..."""
+465,"
+                  www.elsevier.com/locate/patcog Linear dimensionalityreduction using relevance weighted LDA
+","""...  ..."""
+466,"
+                  MRI On The Fly: Accelerating MRI Imaging Using LDA Classification with LDB Feature Extraction
+                  ","""... this document ..."""
+467,"
+                  Combined Investigations on Disturbance Development in a Laminar Separation Bubble by Means of PIV, LDA and DNS
+                  ","""... Laminar separation bubbles (LSB) are an essential feature of the flow field in many technical applications at low to medium Reynolds numbers, for example laminar-airfoil sections or high-lift devices. A LSB occurs if the laminar boundary layer separates due to a strong adverse pressure gradient. The ..."""
+468,"
+                  CS540 Spring 2010: homework 4 1 Logistic regression vs LDA/QDA
+                  ","""... Suppose we train the following binary classifiers via maximum likelihood. 1. GaussI: A generative classifier, where the class conditional densities are Gaussian, with both covariance matrices set to I (identity matrix), i.e., p(x|y = c)  = N (x|µ c, I). We assume p(y) is uniform. 2. GaussX: as for G ..."""
+469,"
+                  double precision BETA complex*16 ALPHA, A(LDA,*), B(LDB,*), C(LDC,*)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F06ZRF (ZHER2K) performs one of the Hermitian rank-2k update operations C AB H þ BA H þ C or C A H B þ B H  ..."""
+470,"
+                  complex*16 A(LDA,*), B(LDB,*), U(LDU,*), V(LDV,*), Q(LDQ,*),
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F08YSF (ZTGSJA) computes the generalized singular value decomposition (GSVD) of two complex upper trapezoid ..."""
+471,"
+                  double precision RWORK(*) complex*16 A(LDA,*), W(*), V(LDV,*), WORK(LWORK) CHARACTER*1
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. ..."""
+472,"
+                  double precision RWORK(*) complex*16 A(LDA,*), W(*), Z(LDZ,*), WORK(LWORK) CHARACTER*1
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. ..."""
+473,"
+                  double precision A(LDA,*), B(LDB,*), Q(LDQ,*), Z(LDZ,*), WORK(*)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F08YFF (DTGEXC) reorders the generalized Schur factorization of a matrix pair in real generalized Schur for ..."""
+474,"
+                  A Least-Squares Unified View of PCA, LDA, CCA and Spectral Graph Methods  
+                  ","""...  Over the last century Component Analysis (CA) methods such as Principal Component ..."""
+475,"
+                  REAL (KIND=nag_wp) SCALE(N) COMPLEX (KIND=nag_wp) A(LDA,*) CHARACTER(1)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F08NVF (ZGEBAL) balances a complex general matrix in order to improve the accuracy of computed eigenvalues  ..."""
+476,"
+                  COMPLEX (KIND=nag_wp) A(LDA,*), TAU(*), WORK(max(1,LWORK))
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F08KTF (ZUNGBR) generates one of the complex unitary matrices Q or P H which were determined by F08KSF (ZGE ..."""
+477,"
+                  REAL (KIND=nag_wp) A(LDA,*), TAU(min(M,N)), WORK(3*N)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. ..."""
+478,"
+                  REAL (KIND=nag_wp) A(LDA,*), TAU(*), WORK(max(1,LWORK))
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F08KFF (DORGBR) generates one of the real orthogonal matrices Q or P T which were determined by F08KEF (DGE ..."""
+479,"
+                  double precision A(LDA,N), B(LDB,NRHS), X(LDX,NRHS), WORK(N*NRHS)
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F07ACF (DSGESV) computes the solution to a real system of linear equations AX  B, where A is an n by n matr ..."""
+480,"
+                  complex*16 A(LDA,*), THETA(*), WORK(max(M-1,NROWP-M,1)) CHARACTER*1
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F01RKF returns the first ‘ rows of the n by n unitary matrix P H, where P is given as the product of Househ ..."""
+481,"
+                  double precision A(LDA,*), WR(N), WI(N), Z(LDZ,*), WORK(LWORK) CHARACTER*1
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F02EAF computes all the eigenvalues, and optionally the Schur factorization, of a real general matrix. ..."""
+482,"
+                  complex*16 A(LDA,*), TAUA(min(N,M)), B(LDB,*), TAUB(min(N,P)),
+                  ","""... Note: before using this routine, please read the Users ’ Note for your implementation to check the interpretation of bold italicised terms and other implementation-dependent details. 1 Purpose F08ZSF (ZGGQRF) computes a generalized QR factorization of a complex matrix pair ðA; BÞ, where A is an n by ..."""
+483,"
+                  For ApJSuppl: final draft — lda, October 20, 2008 The Molecular Properties of Galactic H II Regions
+                  ","""... We derive the molecular properties for a sample of 301 Galactic Hii regions including 123 ultra compact (UC), 105 compact, and 73 diffuse nebulae. We analyze all sources within the BU-FCRAO Galactic Ring Survey (GRS) of 13 CO emission known to be Hii regions based upon the presence of radio continuu ..."""
+484,"
+                  MANUSCRIPT, SUBMITTED TO IEEE SIGNAL PROCESSING LETTERS 1 Noise-adaptive LDA: A
+                  ","""... new approach for speech recognition under observation uncertainty ..."""
+485,"
+                  l   Related Work and Contributions l   Reranking Strategies Based on LDA l   Aspect Discovery and Transformation
+                  ","""... l   Background l   Traditional IR models assume that the relevance of a document is independent of the relevance of other documents. l   Aspect search in biomedical IR l   In many cases, the desired information of a question (query) asked by biologists is a list of a certain type of entities coverin ..."""
+486,"
+                  Biomedical Informatics Insights 2011:4 1 comparison of LDA and spRT on clinical Dataset Classifications
+                  ","""... This is an open access article. Unrestricted non-commercial use is permitted provided the original work is properly cited. Open Access Full open access to this and thousands of other papers at ..."""
+487,"
+                  Validation of JRA-JCDAS LDA and GRiveT Terrestrial Water Storage Model Using GRACE Satellite Gravity Data
+                  ","""... Since the successful launch in 2002, dedicated satellite gravity mission GRACE (Gravity recovery and Climate Experiment, Tapley et al., 2004) has provided monthly gravity field solutions as spherical harmonic coefficients with unprecedented accuracy. The mass variations derived from the gravity fiel ..."""
+488,"
+LDA Conjugate Addition to a Morita-Baylis-Hillman Ester: Experimental and DFT-based Theoretical Observations
+                  ","""... The Morita-Baylis-Hillman (MBH) reaction is well known for providing valuable building blocks in organic synthesis. In the last few years it has been demonstrated that not only the MBH adducts itself ..."""
+489,"
+                  On the Comparison of Multiple Signature LDA and Neural Network Based Broken Rotor Bar Detection Schemes in Induction Motors
+                  ","""... Abstract – Broken rotor bars in induction motors can be detected by monitoring any abnormality of the spectrum amplitudes at certain frequencies in the motor current spectrum. Broken rotor bar fault detection schemes should rely on multiple signatures in order to overcome or reduce the effect of any ..."""
+490,"
+                  Maximum Likelihood Discriminant Feature Spaces
+                  ","""... Linear discriminant analysis (LDA) is known to be inappropriate for the case of classes with unequal sample covariances. In recent years, there has been an interest in generalizing LDA to heteroscedastic discriminant analysis (HDA) by removing the equal within-class covariance constraint. This paper ..."""
+491,"
+                  Modeling User Rating Profiles for Collaborative Filtering
+                  ","""... In this paper we present a generative latent variable model for  rating-based collaborative filtering called the User Rating Profile  model (URP). The generative process which underlies URP is designed  to produce complete user rating profiles, an assignment of  one rating to each item for each user ..."""
+492,"
+                  Discriminative common vectors for face recognition
+                  ","""...  In face recognition tasks, the dimension of the sample space is typically larger than the number of the samples in the training set. As a consequence, the within-class scatter matrix is singular and the Linear Discriminant Analysis (LDA) method cannot be applied directly. This problem is known as t ..."""
+493,"
+                  Semi-supervised discriminant analysis
+                  ","""... Linear Discriminant Analysis (LDA) has been a popular method for extracting features which preserve class separability. The projection vectors are commonly obtained by maximizing the between class covariance and simultaneously minimizing the within class covariance. In practice, when there is no suf ..."""
+494,"
+                  On Kohn-Sham models with LDA and GGA exchange-correlation functionals, in ""Annales de l’IHP, Analyse non linéaire"", submitted
+                  ","""... This article is concerned with the mathematical analysis of the Kohn-Sham and extended Kohn-Sham models, in the local density approximation (LDA) and generalized gradient approximation (GGA) frameworks. After recalling the mathematical derivation of the Kohn-Sham and extended Kohn-Sham LDA and GGA m ..."""
+495,"
+                  Oscillatory Flow in a Physical Model of a Thin Slab Casting Mould With a Bifurcated Submerged Entry Nozzle
+                  ","""...  Laser Doppler anemometry (LDA)    ..."""
+496,"
+                  E-selectin and
+                  ","""... a t fi lda iore on ..."""
+497,"
+                  oro.open.ac.uk Feature LDA: a Supervised Topic Model for Automatic Detection of Web API Documentations from the Web
+                  ","""... and other research outputs Feature LDA: a supervised topic model for automatic detection of Web API documentations from the Web ..."""
+498,"
+                  Comparative analysis for datadriven temporal filters obtained via principal component analysis (PCA) and linear discriminant analysis (LDA) in speech recognition
+                  ","""...  Abstract The Linear Discriminant Analysis (LDA) has been widely used to derive the data-driven temporal filtering of speech feature vectors. In this paper, we proposed that the Principal Component Analysis (PCA) can also be used in the optimization process just as LDA to obtain the temporal filters ..."""
+499,"
+                  Face Recognition Using Adaptive Margin Fisher’s Criterion and Linear Discriminant Analysis (AMFC-LDA) IAJIT First Online Publication
+                  ","""... Abstract: Selecting a low dimensional feature subspace from thousands of features is a key phenomenon for optimal classification. Linear Discriminant Analysis (LDA) is a basic well recognized supervised classifier that is effectively employed for classification. However, two problems arise in intra  ..."""
